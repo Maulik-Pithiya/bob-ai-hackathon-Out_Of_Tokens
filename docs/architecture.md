@@ -1,49 +1,48 @@
-# Architecture
+# Architecture — PortPulse
 
-## System Architecture
+## Pipeline
 
-[Describe the overall architecture of your system. Replace the Mermaid diagram below with your actual architecture.]
+```
+simulate → predict → optimize → visualize
+```
 
 ```mermaid
 graph TD
-    A[User / Browser] -->|HTTP| B[Frontend - React]
-    B -->|REST API| C[Backend - FastAPI]
-    C -->|SDK| D[watsonx.ai]
-    C -->|Query| E[PostgreSQL]
-    C -->|Publish| F[Slack Webhook]
-    D -->|Inference Result| C
+    A[Browser / Dashboard<br/>Next.js React] -->|REST| B[FastAPI Backend<br/>src/api/main.py]
+    B --> C[Simulation Module<br/>src/simulation/generator.py]
+    B --> D[Prediction Module<br/>src/prediction/predictor.py]
+    B --> E[Optimization Module<br/>src/optimization/optimizer.py]
+    C -->|Vessel schedule + Port config| D
+    D -->|Flagged congestion slots| E
+    E -->|Assignment plan + metrics| B
+    B -->|JSON| A
+    F[demo/scenario_congested.json<br/>Pre-baked fallback] -->|GET /demo/scenario| B
 ```
 
 ## Components
 
 | Component | Technology | Responsibility |
 |---|---|---|
-| Frontend | [e.g., React 18] | [e.g., Dashboard UI, user interaction] |
-| Backend API | [e.g., FastAPI] | [e.g., Business logic, orchestration] |
-| AI / ML | [e.g., watsonx.ai] | [e.g., Anomaly scoring, classification] |
-| Database | [e.g., PostgreSQL] | [e.g., Storing pipeline events and scores] |
-| Notifications | [e.g., Slack API] | [e.g., Alerting on threshold breaches] |
+| Frontend | Next.js 14 + React 18 + Recharts | 72h ops plan dashboard, congestion heatmap, metrics panel |
+| Backend API | FastAPI + Uvicorn | Orchestrates pipeline, exposes REST endpoints |
+| Simulation | Python (stdlib only) | Generates synthetic 72h vessel schedule with injectable congestion |
+| Prediction | Python (stdlib only) | Queue-length forecasting; risk score per berth per 2h slot |
+| Optimization | Python (stdlib only) | Greedy berth/crane assignment; before/after wait-time metrics |
+| Shared Types | src/shared/models.py | Single source of truth for Vessel, Berth, Crane dataclasses |
 
 ## Data Flow
 
-[Describe how data moves through your system from input to output.]
-
-1. [e.g., Pipeline logs are ingested via a webhook from GitHub Actions]
-2. [e.g., Logs are preprocessed and chunked into 512-token segments]
-3. [e.g., Each chunk is sent to the watsonx.ai inference endpoint]
-4. [e.g., Anomaly scores are stored in PostgreSQL]
-5. [e.g., The React dashboard polls the API every 30 seconds to refresh]
-
-## Security Considerations
-
-[Note any security decisions relevant to the architecture — even if basic.]
-
-- [e.g., API keys stored in environment variables, never committed to git]
-- [e.g., All API routes require a Bearer token]
-- [e.g., Database credentials rotated via IBM Secrets Manager]
+1. **POST /simulate** — Generates vessel arrivals (ETA, class, cargo, priority) and port state (8 berths, 20 cranes). Optional: inject a burst at hour 24 + take B05 offline.
+2. **GET /predict** — Scores each berth × time-slot (2h granularity) with a risk score 0→1. Slots ≥ 0.65 are flagged HIGH, ≥ 0.85 CRITICAL.
+3. **POST /optimize** — Greedy assignment: sort vessels by priority/ETA, reroute away from flagged slots, allocate cranes to minimise service time. Outputs before/after average wait.
+4. **POST /pipeline** — Single call that runs all three steps and returns the full result payload for the dashboard.
+5. **GET /demo/scenario** — Returns the pre-baked `demo/scenario_congested.json` (generated once and cached).
 
 ## Scalability Notes
 
-[Optional: how would this scale beyond the hackathon prototype?]
-
-[e.g., "The FastAPI backend is stateless and could be horizontally scaled behind a load balancer. The watsonx.ai calls are the bottleneck and would benefit from request batching."]
+This is a hackathon prototype using in-memory state and flat-file caching.
+v2 upgrade paths:
+- Replace greedy optimizer with OR-Tools CP-SAT for globally optimal assignments.
+- Add persistent storage (PostgreSQL) for multi-session history.
+- Stream real AIS vessel data instead of simulation.
+- Horizontally scale the stateless FastAPI backend behind a load balancer.

@@ -1,6 +1,8 @@
-# 🚀 [Your Project Title Here]
+# 🚢 PortPulse — Container Congestion Predictor & Port Operations Optimiser
 
-> ⚠️ **Replace everything in `[ ]` brackets with your actual content before submission.**
+> **IBM Bob AI Innovation Hackathon — Problem Statement L1: Logistics & Ports**
+
+PortPulse predicts container port congestion **before** it happens, automatically reroutes vessels and reassigns berths/cranes, and outputs a 72-hour operations plan a shift supervisor can act on.
 
 ---
 
@@ -8,36 +10,34 @@
 
 | Field | Value |
 |---|---|
-| **Team Name** | [Your Team Name] |
-| **Track** | [AI / DevOps / Sustainability / Open] |
-| **Team Lead** | [Name] — [email@ibm.com] |
-| **Members** | [Name 1], [Name 2], [Name 3] |
+| **Team Name** | Out Of Tokens |
+| **Track** | Logistics & Ports (L1) |
+| **Members** | Person A (Simulation + Prediction), Person B (Optimization), Person C (Dashboard), Person D (API + Integration) |
 
 ---
 
 ## 🎯 Problem Statement
 
-> In 2–3 sentences: What problem does your project solve? Who experiences this problem?
-
-[Describe the real-world problem your project addresses. Be specific about who the user is and what pain point they face.]
+In 2021, 100+ container ships sat offshore at LA/Long Beach for weeks, costing global supply chains $10B+. The root cause: reactive, spreadsheet-based berth management that detected congestion only after ships were already queuing. Port operators had no predictive visibility — by the time they acted, the backlog was already catastrophic.
 
 ---
 
 ## 💡 Solution
 
-> In 2–3 sentences: What did you build? How does it solve the problem above?
+PortPulse is an end-to-end congestion prediction and optimization system. It simulates a 72-hour vessel arrival schedule, scores every berth × time-slot with a congestion risk index, and runs a greedy optimizer that reroutes vessels and assigns cranes to minimize wait time — producing a clean ops plan before the queue ever forms.
 
-[Describe your solution clearly. Explain the core mechanism — what makes it work.]
+**Pipeline:** `simulate → predict → optimize → visualize`
 
 ---
 
 ## ✨ Key Features
 
-- **Feature 1:** [Brief description — e.g., "Real-time anomaly detection using watsonx.ai"]
-- **Feature 2:** [Brief description]
-- **Feature 3:** [Brief description]
-- **Feature 4:** [Optional]
-- **Feature 5:** [Optional]
+- **Predictive congestion scoring** — risk score per berth per 2-hour slot, flagging HIGH (>65%) and CRITICAL (>85%) windows up to 72 hours ahead
+- **Injectable congestion scenario** — burst arrivals + berth offline for a vivid before/after demo
+- **Greedy optimizer** — reroutes vessels away from flagged windows, allocates cranes to minimize turnaround time
+- **Quantified improvement** — average wait time before vs after optimization displayed as a metric
+- **72-hour assignment timeline** — vessel → berth → crane → time slot, ready for a shift supervisor
+- **Pre-baked demo fallback** — `demo/scenario_congested.json` loads instantly if live compute is slow
 
 ---
 
@@ -45,50 +45,80 @@
 
 | Category | Technologies |
 |---|---|
-| **Languages** | [e.g., Python, TypeScript] |
-| **Frameworks** | [e.g., FastAPI, React] |
-| **IBM Technologies** | [e.g., watsonx.ai, IBM Bob, IBM Cloud] |
-| **Databases** | [e.g., PostgreSQL, Redis] |
-| **Other** | [e.g., Docker, GitHub Actions] |
+| **Languages** | Python 3.12, TypeScript |
+| **Backend** | FastAPI, Uvicorn |
+| **Frontend** | Next.js 14, React 18, Recharts, Tailwind CSS |
+| **Prediction** | Rule-based queue-length forecasting (stdlib only) |
+| **Optimization** | Greedy heuristic assignment (OR-Tools CP-SAT as v2 path) |
+| **Data** | Synthetic in-memory (CSV/JSON flat files) |
+| **Dev Assistant** | IBM Bob |
 
 ---
 
 ## 📁 Repository Structure
 
 ```
-├── src/                  # All source code
-├── docs/                 # Written documentation
-│   ├── problem-statement.md
-│   ├── solution-overview.md
-│   ├── architecture.md
-│   └── setup-guide.md
-├── demo/                 # Demo artifacts
-│   ├── screenshots/      # App screenshots
-│   └── demo-video-link.txt  # Link to demo video
-├── presentation/         # Slide deck
-└── submission.yaml       # Structured submission metadata
+src/
+  shared/          ← Vessel, Berth, Crane dataclasses (single source of truth)
+  simulation/      ← Synthetic 72h vessel schedule generator
+  prediction/      ← Congestion risk scorer
+  optimization/    ← Greedy berth/crane assignment optimizer
+  api/             ← FastAPI backend (wires all modules)
+  dashboard/       ← Next.js dashboard (72h ops plan UI)
+data/
+  schema.md        ← Field definitions
+  raw/             ← Generated data files (gitignored if large)
+demo/
+  scenario_congested.json   ← Pre-baked fallback scenario
+  demo_script.md            ← Timed 2.5-minute walkthrough
+docs/
+  architecture.md  ← Pipeline diagram + module responsibilities
+  decisions.md     ← Tradeoff log
+  assumptions.md   ← Synthetic data + scope cuts, for judges
+tests/             ← Unit tests for prediction + optimization
 ```
 
 ---
 
 ## ⚡ How to Run
 
-> **Copy these exact steps from your [`docs/setup-guide.md`](docs/setup-guide.md)**
+### 1. Backend (Python)
 
 ```bash
-# 1. Clone the repo
-git clone https://github.com/[your-repo].git
-cd [your-repo]
+# Install dependencies
+pip install -r requirements.txt
 
-# 2. Install dependencies
-[your install command here]
+# Start the API server
+uvicorn src.api.main:app --host 0.0.0.0 --port 8000 --reload
+```
 
-# 3. Configure environment
-cp .env.example .env
-# Edit .env with your values
+API docs available at http://localhost:8000/docs
 
-# 4. Run the project
-[your run command here]
+### 2. Frontend (Next.js)
+
+```bash
+cd src/dashboard
+npm install
+npm run dev
+```
+
+Dashboard available at http://localhost:3000
+
+### 3. Run tests
+
+```bash
+pip install -r requirements-dev.txt
+pytest tests/ -v
+```
+
+### 4. Generate data manually
+
+```bash
+# Normal schedule
+python -m src.simulation.generator
+
+# Congestion scenario
+python -m src.simulation.generator --congestion --out data/raw/schedule_congested.json
 ```
 
 ---
@@ -99,23 +129,21 @@ cp .env.example .env
 |---|---|
 | 📹 Demo Video | [See demo/demo-video-link.txt](demo/demo-video-link.txt) |
 | 🌐 Live Demo | [See demo/live-demo-url.txt](demo/live-demo-url.txt) |
-| 🖼️ Screenshots | [See demo/screenshots/](demo/screenshots/) |
-| 📊 Presentation | [See presentation/slides.pdf](presentation/) |
+| 📋 Demo Script | [demo/demo_script.md](demo/demo_script.md) |
+| 📦 Fallback Scenario | [demo/scenario_congested.json](demo/scenario_congested.json) |
 
 ---
 
 ## ⚠️ Known Limitations
 
-> Be honest — judges appreciate transparency over overclaiming.
-
-- [Limitation 1: e.g., "Authentication is mocked — not production-ready"]
-- [Limitation 2: e.g., "Only tested on Chrome"]
-- [Limitation 3: e.g., "Feature X is scaffolded but not fully implemented"]
+- Data is entirely synthetic — no live AIS feed integration
+- Single port only; multi-port network effects are out of scope
+- Optimizer is greedy (not globally optimal); OR-Tools CP-SAT noted as v2
+- API state is in-memory; resets on server restart
+- No authentication or production infrastructure
 
 ---
 
 ## 🏅 What We're Most Proud Of
 
-[Tell the judges what part of your submission is strongest and worth paying close attention to.]
-
----
+The end-to-end working pipeline: a single POST to `/pipeline` runs simulation, prediction, and optimization and returns a complete 72-hour ops plan with a quantified before/after wait-time improvement — all in under a second, with no external dependencies beyond FastAPI.

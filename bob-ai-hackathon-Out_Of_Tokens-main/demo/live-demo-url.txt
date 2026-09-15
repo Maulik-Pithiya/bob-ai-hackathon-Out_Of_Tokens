@@ -1,0 +1,8 @@
+NOT DEPLOYED — run locally using docs/setup-guide.md
+
+To run PortPulse locally:
+  1. Backend:  uvicorn src.api.main:app --host 0.0.0.0 --port 8000 --reload
+  2. Frontend: cd src/dashboard && npm run dev
+  3. Open:     http://localhost:3000
+
+See docs/setup-guide.md for the full setup guide.

@@ -1,0 +1,92 @@
+# =============================================================================
+# HACKATHON SUBMISSION METADATA
+# =============================================================================
+# Instructions:
+#   - Fill in ALL required fields (marked with # REQUIRED)
+#   - Optional fields can be left as empty strings ""
+#   - Do NOT rename this file — the evaluation pipeline reads it by name
+#   - Use double quotes around all string values
+# =============================================================================
+
+team:
+  name: "Out Of Tokens"                   # REQUIRED
+  track: "Open"                           # REQUIRED — one of: AI | DevOps | Sustainability | Open
+  lead:
+    name: "Out Of Tokens Lead"            # REQUIRED — update with actual lead name
+    email: "outoftokens@team.com"         # REQUIRED — update with actual lead email
+  members:
+    - name: "Person A"                    # Simulation + Prediction module
+      email: "person.a@team.com"
+    - name: "Person B"                    # Optimization module
+      email: "person.b@team.com"
+    - name: "Person C"                    # Dashboard / Frontend
+      email: "person.c@team.com"
+    - name: "Person D"                    # API + Integration
+      email: "person.d@team.com"
+
+submission:
+  title: "PortPulse — Container Congestion Predictor & Port Operations Optimiser"   # REQUIRED
+
+  problem_statement: >                    # REQUIRED
+    Container ports worldwide suffer from reactive, spreadsheet-based berth management
+    that only detects congestion after ships are already queuing offshore — a failure
+    mode that cost global supply chains $10B+ during the 2021 LA/Long Beach backlog.
+    Port shift supervisors have no predictive visibility into the 72-hour horizon, making
+    proactive rerouting and crane allocation impossible.
+
+  solution_summary: >                     # REQUIRED
+    PortPulse is an end-to-end container port congestion prediction and optimization
+    system. It simulates a 72-hour vessel arrival schedule, scores every berth ×
+    time-slot with a calibrated congestion risk index (0–1), and runs a greedy optimizer
+    that reroutes vessels and assigns cranes to minimize wait time — producing a clean,
+    actionable ops plan before the queue ever forms. A single POST to /pipeline runs the
+    full simulate → predict → optimize pipeline and returns a quantified before/after
+    wait-time improvement in under one second. A Live What-If Vessel Injection feature
+    (POST /pipeline/inject) lets operators test the impact of any surprise vessel arrival
+    on the current schedule before committing, showing a precise diff of slot tier changes,
+    average wait delta, and impactful reroutes (≥2h threshold).
+
+  key_features:                           # REQUIRED
+    - "Predictive congestion scoring — calibrated sigmoid risk score per berth per 2-hour slot; genuine green/yellow/orange/red spread across the 72h horizon"
+    - "Full-spread congestion heatmap — 8 berths × 12 six-hour buckets; all 288 slots returned so green (low-risk) cells are real, not empty placeholders"
+    - "Live What-If Vessel Injection — POST /pipeline/inject; instant diff: slot tier changes, avg wait delta, top reroutes filtered to ≥2h impact"
+    - "Injectable congestion scenario — burst of vessel arrivals + berth offline to trigger a vivid before/after demo"
+    - "Greedy optimizer with congestion-aware rerouting — redirects vessels away from CRITICAL windows, allocates cranes to minimize turnaround time"
+    - "Quantified improvement metrics — average wait time before vs after optimization, wait reduction %, incidents avoided"
+    - "72-hour assignment timeline dashboard — vessel → berth → crane → start/end time → wait badge"
+
+  tech_stack:
+    languages: ["Python 3.12", "TypeScript"]
+    frameworks: ["FastAPI", "Uvicorn", "Next.js 14", "React 18", "Recharts", "Tailwind CSS", "Pydantic v2"]
+    ibm_technologies: ["IBM Bob"]
+    databases: []
+    other: ["Axios", "date-fns", "clsx", "pytest", "GitHub Actions"]
+
+  what_we_are_most_proud_of: >
+    Two things: the end-to-end working pipeline (single POST to /pipeline, full ops plan
+    in under a second, no external dependencies), and the Live What-If Vessel Injection
+    feature — where injecting a single surprise ship triggers a complete before/after diff
+    showing exactly which berths escalate in risk tier, how the average port wait shifts,
+    and which existing ships need rerouting (with a ≥2h threshold that suppresses noise).
+    The heatmap now renders a genuine green/amber/red spread, making the congestion story
+    visually immediate. IBM Bob was used throughout for scaffolding and integration.
+
+  known_limitations: >
+    All vessel and port data is entirely synthetic — no live AIS feed is integrated.
+    The system models a single port only; multi-port network effects are out of scope.
+    The optimizer is a greedy heuristic (not globally optimal); OR-Tools CP-SAT is
+    documented as the v2 upgrade path. API state is held in-memory and resets on
+    server restart. No authentication or production infrastructure is implemented.
+
+# =============================================================================
+# ARTIFACT LOCATIONS
+# These paths are relative to the repo root. Only change if you moved files.
+# =============================================================================
+artifacts:
+  source_code: "src/"
+  setup_guide: "docs/setup-guide.md"
+  architecture_doc: "docs/architecture.md"
+  demo_video: "demo/demo-video-link.txt"   # URL to hosted video (YouTube, Loom, Box)
+  live_demo: "demo/live-demo-url.txt"      # URL to deployed demo (optional)
+  screenshots: "demo/screenshots/"
+  presentation: "presentation/"

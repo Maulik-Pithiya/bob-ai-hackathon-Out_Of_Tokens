@@ -127,8 +127,8 @@ python -m src.simulation.generator --congestion --out data/raw/schedule_congeste
 
 | Artifact | Link |
 |---|---|
-| 📹 Demo Video | [See demo/demo-video-link.txt](demo/demo-video-link.txt) |
-| 🌐 Live Demo | [See demo/live-demo-url.txt](demo/live-demo-url.txt) |
+| 📹 Demo Video | [Watch on Google Drive](https://drive.google.com/file/d/1KB3H-9WIg226fHohe1wyr4-U8x1ey1uC/view?usp=drive_link) |
+| 🌐 Live Demo | NOT DEPLOYED — run locally using [docs/setup-guide.md](docs/setup-guide.md) |
 | 📋 Demo Script | [demo/demo_script.md](demo/demo_script.md) |
 | 📦 Fallback Scenario | [demo/scenario_congested.json](demo/scenario_congested.json) |
 

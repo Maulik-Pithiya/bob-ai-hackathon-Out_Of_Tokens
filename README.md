@@ -12,7 +12,7 @@ PortPulse predicts container port congestion **before** it happens, automaticall
 |---|---|
 | **Team Name** | Out Of Tokens |
 | **Track** | Logistics & Ports (L1) |
-| **Members** | Person A (Simulation + Prediction), Person B (Optimization), Person C (Dashboard), Person D (API + Integration) |
+| **Members** | Rutansh govardhan (Simulation + Prediction), Maulik Pithiya  (Optimization), Ayushi Pithiya (Dashboard), Parthvi Shah (API + Integration) |
 
 ---
 

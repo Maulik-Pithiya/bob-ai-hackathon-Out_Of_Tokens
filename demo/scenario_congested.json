@@ -1,0 +1,4599 @@
+{
+  "vessels": [
+    {
+      "vessel_id": "V0001",
+      "name": "ONE Typhoon 001",
+      "vessel_class": "VLARGE",
+      "cargo_volume_teu": 23662,
+      "eta": 1789383459.7212386,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0002",
+      "name": "ONE Typhoon 002",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 7206,
+      "eta": 1789384674.3748188,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0003",
+      "name": "ONE Typhoon 003",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 6622,
+      "eta": 1789390259.7960312,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0004",
+      "name": "Hapag Liberty 004",
+      "vessel_class": "SMALL",
+      "cargo_volume_teu": 4901,
+      "eta": 1789387322.5562987,
+      "priority": "HIGH",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0005",
+      "name": "MSC Altair 005",
+      "vessel_class": "LARGE",
+      "cargo_volume_teu": 11455,
+      "eta": 1789389120.7119963,
+      "priority": "HIGH",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0006",
+      "name": "Evergreen Fortune 006",
+      "vessel_class": "SMALL",
+      "cargo_volume_teu": 1701,
+      "eta": 1789389694.4382815,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0007",
+      "name": "PIL Navigator 007",
+      "vessel_class": "SMALL",
+      "cargo_volume_teu": 3528,
+      "eta": 1789391530.544911,
+      "priority": "LOW",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0008",
+      "name": "PIL Navigator 008",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 5453,
+      "eta": 1789391938.3352323,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0009",
+      "name": "MSC Altair 009",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 6035,
+      "eta": 1789392845.629318,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0010",
+      "name": "CMA CGM Atlas 010",
+      "vessel_class": "LARGE",
+      "cargo_volume_teu": 13344,
+      "eta": 1789397971.0064306,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0011",
+      "name": "Hapag Liberty 011",
+      "vessel_class": "SMALL",
+      "cargo_volume_teu": 1850,
+      "eta": 1789402292.4165223,
+      "priority": "HIGH",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0012",
+      "name": "PIL Navigator 012",
+      "vessel_class": "SMALL",
+      "cargo_volume_teu": 4368,
+      "eta": 1789407185.6020057,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0013",
+      "name": "PIL Navigator 013",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 8271,
+      "eta": 1789414872.9122653,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0014",
+      "name": "Maersk Horizon 014",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 8637,
+      "eta": 1789422216.5285797,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0015",
+      "name": "ONE Typhoon 015",
+      "vessel_class": "LARGE",
+      "cargo_volume_teu": 12544,
+      "eta": 1789421620.0073888,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0016",
+      "name": "Evergreen Fortune 016",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 7045,
+      "eta": 1789420720.8845792,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0017",
+      "name": "ONE Typhoon 017",
+      "vessel_class": "VLARGE",
+      "cargo_volume_teu": 16141,
+      "eta": 1789426009.5736008,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0018",
+      "name": "Yang Ming Coral 018",
+      "vessel_class": "LARGE",
+      "cargo_volume_teu": 14368,
+      "eta": 1789425969.2813113,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0019",
+      "name": "ZIM Atlantic 019",
+      "vessel_class": "LARGE",
+      "cargo_volume_teu": 11305,
+      "eta": 1789428785.3060403,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0020",
+      "name": "Maersk Horizon 020",
+      "vessel_class": "VLARGE",
+      "cargo_volume_teu": 22209,
+      "eta": 1789427556.2827382,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0021",
+      "name": "CMA CGM Atlas 021",
+      "vessel_class": "SMALL",
+      "cargo_volume_teu": 3723,
+      "eta": 1789436385.8063548,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0022",
+      "name": "Wan Hai Explorer 022",
+      "vessel_class": "VLARGE",
+      "cargo_volume_teu": 18788,
+      "eta": 1789440245.9418633,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0023",
+      "name": "OOCL Summit 023",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 5010,
+      "eta": 1789444163.282255,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0024",
+      "name": "Yang Ming Coral 024",
+      "vessel_class": "LARGE",
+      "cargo_volume_teu": 11681,
+      "eta": 1789447408.8611658,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0025",
+      "name": "ZIM Atlantic 025",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 9350,
+      "eta": 1789447107.9342093,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0026",
+      "name": "CMA CGM Atlas 026",
+      "vessel_class": "LARGE",
+      "cargo_volume_teu": 11640,
+      "eta": 1789447941.9724526,
+      "priority": "HIGH",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0027",
+      "name": "ONE Typhoon 027",
+      "vessel_class": "SMALL",
+      "cargo_volume_teu": 1130,
+      "eta": 1789445844.0158632,
+      "priority": "URGENT",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0028",
+      "name": "Yang Ming Coral 028",
+      "vessel_class": "LARGE",
+      "cargo_volume_teu": 14709,
+      "eta": 1789450667.6215591,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0029",
+      "name": "COSCO Pacific 029",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 6411,
+      "eta": 1789449128.237755,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0030",
+      "name": "COSCO Pacific 030",
+      "vessel_class": "VLARGE",
+      "cargo_volume_teu": 21373,
+      "eta": 1789451379.2266743,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0031",
+      "name": "OOCL Summit 031",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 6700,
+      "eta": 1789450005.222436,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0032",
+      "name": "PIL Navigator 032",
+      "vessel_class": "VLARGE",
+      "cargo_volume_teu": 22804,
+      "eta": 1789458673.201042,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0033",
+      "name": "Hapag Liberty 033",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 8767,
+      "eta": 1789455557.155696,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0034",
+      "name": "PIL Navigator 034",
+      "vessel_class": "SMALL",
+      "cargo_volume_teu": 3683,
+      "eta": 1789457194.2578564,
+      "priority": "HIGH",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0035",
+      "name": "MSC Altair 035",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 7142,
+      "eta": 1789460860.9477444,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0036",
+      "name": "Hapag Liberty 036",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 9548,
+      "eta": 1789462914.293488,
+      "priority": "HIGH",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0037",
+      "name": "CMA CGM Atlas 037",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 6544,
+      "eta": 1789466562.2461128,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0038",
+      "name": "PIL Navigator 038",
+      "vessel_class": "LARGE",
+      "cargo_volume_teu": 10578,
+      "eta": 1789466657.2969887,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0039",
+      "name": "Evergreen Fortune 039",
+      "vessel_class": "SMALL",
+      "cargo_volume_teu": 2448,
+      "eta": 1789468878.3620625,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0040",
+      "name": "COSCO Pacific 040",
+      "vessel_class": "LARGE",
+      "cargo_volume_teu": 10930,
+      "eta": 1789468913.895179,
+      "priority": "HIGH",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0041",
+      "name": "OOCL Summit 041",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 8106,
+      "eta": 1789472678.7730522,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0042",
+      "name": "ONE Typhoon 042",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 9982,
+      "eta": 1789471743.5465117,
+      "priority": "HIGH",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0043",
+      "name": "CMA CGM Atlas 043",
+      "vessel_class": "LARGE",
+      "cargo_volume_teu": 12804,
+      "eta": 1789471113.725051,
+      "priority": "HIGH",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0044",
+      "name": "PIL Navigator 044",
+      "vessel_class": "SMALL",
+      "cargo_volume_teu": 1455,
+      "eta": 1789471858.076134,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0045",
+      "name": "Evergreen Fortune 045",
+      "vessel_class": "LARGE",
+      "cargo_volume_teu": 10102,
+      "eta": 1789472844.1601763,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0046",
+      "name": "COSCO Pacific 046",
+      "vessel_class": "LARGE",
+      "cargo_volume_teu": 14935,
+      "eta": 1789473432.2771015,
+      "priority": "HIGH",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0047",
+      "name": "ONE Typhoon 047",
+      "vessel_class": "VLARGE",
+      "cargo_volume_teu": 17727,
+      "eta": 1789474486.850725,
+      "priority": "HIGH",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0048",
+      "name": "COSCO Pacific 048",
+      "vessel_class": "LARGE",
+      "cargo_volume_teu": 14786,
+      "eta": 1789474225.9287765,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0049",
+      "name": "CMA CGM Atlas 049",
+      "vessel_class": "SMALL",
+      "cargo_volume_teu": 1046,
+      "eta": 1789476058.4923391,
+      "priority": "HIGH",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0050",
+      "name": "ONE Typhoon 050",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 9034,
+      "eta": 1789473403.9158838,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0051",
+      "name": "Maersk Horizon 051",
+      "vessel_class": "LARGE",
+      "cargo_volume_teu": 10283,
+      "eta": 1789481318.0604866,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0052",
+      "name": "OOCL Summit 052",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 5151,
+      "eta": 1789483723.407989,
+      "priority": "HIGH",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0053",
+      "name": "COSCO Pacific 053",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 5447,
+      "eta": 1789489875.734894,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0054",
+      "name": "MSC Altair 054",
+      "vessel_class": "LARGE",
+      "cargo_volume_teu": 10769,
+      "eta": 1789489579.655059,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0055",
+      "name": "CMA CGM Atlas 055",
+      "vessel_class": "LARGE",
+      "cargo_volume_teu": 11079,
+      "eta": 1789488190.7245839,
+      "priority": "HIGH",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0056",
+      "name": "ZIM Atlantic 056",
+      "vessel_class": "SMALL",
+      "cargo_volume_teu": 1955,
+      "eta": 1789506019.150938,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0057",
+      "name": "Hapag Liberty 057",
+      "vessel_class": "SMALL",
+      "cargo_volume_teu": 3056,
+      "eta": 1789508184.7176561,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0058",
+      "name": "COSCO Pacific 058",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 5822,
+      "eta": 1789506269.667206,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0059",
+      "name": "Wan Hai Explorer 059",
+      "vessel_class": "SMALL",
+      "cargo_volume_teu": 4023,
+      "eta": 1789506164.1978106,
+      "priority": "HIGH",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0060",
+      "name": "Maersk Horizon 060",
+      "vessel_class": "VLARGE",
+      "cargo_volume_teu": 23900,
+      "eta": 1789513609.450948,
+      "priority": "LOW",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0061",
+      "name": "ZIM Atlantic 061",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 5593,
+      "eta": 1789517510.1620438,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0062",
+      "name": "ONE Typhoon 062",
+      "vessel_class": "LARGE",
+      "cargo_volume_teu": 10242,
+      "eta": 1789521515.961366,
+      "priority": "HIGH",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0063",
+      "name": "MSC Altair 063",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 7197,
+      "eta": 1789525962.3345985,
+      "priority": "HIGH",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0064",
+      "name": "OOCL Summit 064",
+      "vessel_class": "LARGE",
+      "cargo_volume_teu": 10934,
+      "eta": 1789528544.8908284,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0065",
+      "name": "MSC Altair 065",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 7133,
+      "eta": 1789527344.3517437,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0066",
+      "name": "ONE Typhoon 066",
+      "vessel_class": "SMALL",
+      "cargo_volume_teu": 4527,
+      "eta": 1789532035.446288,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0067",
+      "name": "Maersk Horizon 067",
+      "vessel_class": "SMALL",
+      "cargo_volume_teu": 1303,
+      "eta": 1789534977.0257802,
+      "priority": "LOW",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0068",
+      "name": "MSC Altair 068",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 7096,
+      "eta": 1789534597.2841918,
+      "priority": "HIGH",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0069",
+      "name": "OOCL Summit 069",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 8570,
+      "eta": 1789537382.103562,
+      "priority": "LOW",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0070",
+      "name": "Evergreen Fortune 070",
+      "vessel_class": "VLARGE",
+      "cargo_volume_teu": 19306,
+      "eta": 1789542785.1735873,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0071",
+      "name": "CMA CGM Atlas 071",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 6994,
+      "eta": 1789541663.2632349,
+      "priority": "LOW",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0072",
+      "name": "PIL Navigator 072",
+      "vessel_class": "VLARGE",
+      "cargo_volume_teu": 18983,
+      "eta": 1789547538.1942933,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0073",
+      "name": "ONE Typhoon 073",
+      "vessel_class": "LARGE",
+      "cargo_volume_teu": 13617,
+      "eta": 1789559289.7659926,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0074",
+      "name": "Evergreen Fortune 074",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 6926,
+      "eta": 1789557868.1399121,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0075",
+      "name": "Hapag Liberty 075",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 9841,
+      "eta": 1789561177.2085276,
+      "priority": "HIGH",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0076",
+      "name": "ZIM Atlantic 076",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 9877,
+      "eta": 1789559615.048136,
+      "priority": "LOW",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0077",
+      "name": "ZIM Atlantic 077",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 8468,
+      "eta": 1789565511.2746549,
+      "priority": "HIGH",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0078",
+      "name": "MSC Altair 078",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 6668,
+      "eta": 1789570319.5331726,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0079",
+      "name": "OOCL Summit 079",
+      "vessel_class": "VLARGE",
+      "cargo_volume_teu": 18000,
+      "eta": 1789573291.8637726,
+      "priority": "HIGH",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0080",
+      "name": "COSCO Pacific 080",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 6451,
+      "eta": 1789570720.4933581,
+      "priority": "HIGH",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0081",
+      "name": "PIL Navigator 081",
+      "vessel_class": "LARGE",
+      "cargo_volume_teu": 13163,
+      "eta": 1789570623.3095217,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0082",
+      "name": "MSC Altair 082",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 6296,
+      "eta": 1789572963.0294898,
+      "priority": "HIGH",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0083",
+      "name": "Hapag Liberty 083",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 8204,
+      "eta": 1789574990.360181,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0084",
+      "name": "CMA CGM Atlas 084",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 9096,
+      "eta": 1789581807.3565283,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0085",
+      "name": "MSC Altair 085",
+      "vessel_class": "SMALL",
+      "cargo_volume_teu": 3276,
+      "eta": 1789592464.1315856,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0086",
+      "name": "Evergreen Fortune 086",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 5685,
+      "eta": 1789605873.336433,
+      "priority": "LOW",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0087",
+      "name": "PIL Navigator 087",
+      "vessel_class": "SMALL",
+      "cargo_volume_teu": 3995,
+      "eta": 1789607461.454185,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0088",
+      "name": "MSC Altair 088",
+      "vessel_class": "LARGE",
+      "cargo_volume_teu": 11556,
+      "eta": 1789606745.247385,
+      "priority": "LOW",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0089",
+      "name": "CMA CGM Atlas 089",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 9128,
+      "eta": 1789612279.0289338,
+      "priority": "LOW",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0090",
+      "name": "OOCL Summit 090",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 7862,
+      "eta": 1789610414.2171369,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0091",
+      "name": "Maersk Horizon 091",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 9532,
+      "eta": 1789613233.7912002,
+      "priority": "HIGH",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0092",
+      "name": "COSCO Pacific 092",
+      "vessel_class": "LARGE",
+      "cargo_volume_teu": 14285,
+      "eta": 1789612529.7198696,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0093",
+      "name": "ZIM Atlantic 093",
+      "vessel_class": "LARGE",
+      "cargo_volume_teu": 14373,
+      "eta": 1789613602.7285504,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0094",
+      "name": "CMA CGM Atlas 094",
+      "vessel_class": "SMALL",
+      "cargo_volume_teu": 3186,
+      "eta": 1789619568.6370199,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0095",
+      "name": "Wan Hai Explorer 095",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 5823,
+      "eta": 1789621807.738815,
+      "priority": "HIGH",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0096",
+      "name": "COSCO Pacific 096",
+      "vessel_class": "VLARGE",
+      "cargo_volume_teu": 21940,
+      "eta": 1789621310.900955,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0097",
+      "name": "PIL Navigator 097",
+      "vessel_class": "LARGE",
+      "cargo_volume_teu": 13889,
+      "eta": 1789623866.7158456,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0098",
+      "name": "Evergreen Fortune 098",
+      "vessel_class": "SMALL",
+      "cargo_volume_teu": 1834,
+      "eta": 1789629209.900103,
+      "priority": "URGENT",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0099",
+      "name": "ONE Typhoon 099",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 5807,
+      "eta": 1789629267.4501498,
+      "priority": "HIGH",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0100",
+      "name": "COSCO Pacific 100",
+      "vessel_class": "LARGE",
+      "cargo_volume_teu": 12370,
+      "eta": 1789632537.7188737,
+      "priority": "URGENT",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0101",
+      "name": "COSCO Pacific 101",
+      "vessel_class": "LARGE",
+      "cargo_volume_teu": 10221,
+      "eta": 1789640669.7904453,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0102",
+      "name": "Yang Ming Coral 102",
+      "vessel_class": "MEDIUM",
+      "cargo_volume_teu": 9289,
+      "eta": 1789639698.054042,
+      "priority": "NORMAL",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    },
+    {
+      "vessel_id": "V0103",
+      "name": "Hapag Liberty 103",
+      "vessel_class": "LARGE",
+      "cargo_volume_teu": 10757,
+      "eta": 1789639987.871815,
+      "priority": "HIGH",
+      "assigned_berth_id": null,
+      "assigned_crane_ids": [],
+      "arrival_time": null,
+      "service_start": null,
+      "service_end": null,
+      "wait_time_hours": null
+    }
+  ],
+  "berths": [
+    {
+      "berth_id": "B01",
+      "name": "Berth 1 \u2013 North Quay A",
+      "compatible_classes": [
+        "SMALL",
+        "MEDIUM"
+      ],
+      "max_cranes": 2,
+      "status": "AVAILABLE",
+      "current_vessel_id": null,
+      "available_from": 0.0
+    },
+    {
+      "berth_id": "B02",
+      "name": "Berth 2 \u2013 North Quay B",
+      "compatible_classes": [
+        "SMALL",
+        "MEDIUM"
+      ],
+      "max_cranes": 2,
+      "status": "AVAILABLE",
+      "current_vessel_id": null,
+      "available_from": 0.0
+    },
+    {
+      "berth_id": "B03",
+      "name": "Berth 3 \u2013 East Dock A",
+      "compatible_classes": [
+        "MEDIUM",
+        "LARGE"
+      ],
+      "max_cranes": 3,
+      "status": "AVAILABLE",
+      "current_vessel_id": null,
+      "available_from": 0.0
+    },
+    {
+      "berth_id": "B04",
+      "name": "Berth 4 \u2013 East Dock B",
+      "compatible_classes": [
+        "MEDIUM",
+        "LARGE"
+      ],
+      "max_cranes": 3,
+      "status": "AVAILABLE",
+      "current_vessel_id": null,
+      "available_from": 0.0
+    },
+    {
+      "berth_id": "B05",
+      "name": "Berth 5 \u2013 South Terminal A",
+      "compatible_classes": [
+        "LARGE",
+        "VLARGE"
+      ],
+      "max_cranes": 4,
+      "status": "MAINTENANCE",
+      "current_vessel_id": null,
+      "available_from": 0.0
+    },
+    {
+      "berth_id": "B06",
+      "name": "Berth 6 \u2013 South Terminal B",
+      "compatible_classes": [
+        "LARGE",
+        "VLARGE"
+      ],
+      "max_cranes": 4,
+      "status": "AVAILABLE",
+      "current_vessel_id": null,
+      "available_from": 0.0
+    },
+    {
+      "berth_id": "B07",
+      "name": "Berth 7 \u2013 Deep Water A",
+      "compatible_classes": [
+        "VLARGE"
+      ],
+      "max_cranes": 4,
+      "status": "AVAILABLE",
+      "current_vessel_id": null,
+      "available_from": 0.0
+    },
+    {
+      "berth_id": "B08",
+      "name": "Berth 8 \u2013 Deep Water B",
+      "compatible_classes": [
+        "VLARGE"
+      ],
+      "max_cranes": 4,
+      "status": "AVAILABLE",
+      "current_vessel_id": null,
+      "available_from": 0.0
+    }
+  ],
+  "cranes": [
+    {
+      "crane_id": "C01",
+      "name": "Crane 01",
+      "throughput_teu_per_hour": 104.23868449661998,
+      "assigned_berth_id": null,
+      "available_from": 0.0
+    },
+    {
+      "crane_id": "C02",
+      "name": "Crane 02",
+      "throughput_teu_per_hour": 92.00452667449673,
+      "assigned_berth_id": null,
+      "available_from": 0.0
+    },
+    {
+      "crane_id": "C03",
+      "name": "Crane 03",
+      "throughput_teu_per_hour": 90.72813923519674,
+      "assigned_berth_id": null,
+      "available_from": 0.0
+    },
+    {
+      "crane_id": "C04",
+      "name": "Crane 04",
+      "throughput_teu_per_hour": 94.90587911005812,
+      "assigned_berth_id": null,
+      "available_from": 0.0
+    },
+    {
+      "crane_id": "C05",
+      "name": "Crane 05",
+      "throughput_teu_per_hour": 125.59264619048469,
+      "assigned_berth_id": null,
+      "available_from": 0.0
+    },
+    {
+      "crane_id": "C06",
+      "name": "Crane 06",
+      "throughput_teu_per_hour": 95.06906050251321,
+      "assigned_berth_id": null,
+      "available_from": 0.0
+    },
+    {
+      "crane_id": "C07",
+      "name": "Crane 07",
+      "throughput_teu_per_hour": 102.98405492193069,
+      "assigned_berth_id": null,
+      "available_from": 0.0
+    },
+    {
+      "crane_id": "C08",
+      "name": "Crane 08",
+      "throughput_teu_per_hour": 121.05851830563913,
+      "assigned_berth_id": null,
+      "available_from": 0.0
+    },
+    {
+      "crane_id": "C09",
+      "name": "Crane 09",
+      "throughput_teu_per_hour": 112.3177478118999,
+      "assigned_berth_id": null,
+      "available_from": 0.0
+    },
+    {
+      "crane_id": "C10",
+      "name": "Crane 10",
+      "throughput_teu_per_hour": 136.3026113617061,
+      "assigned_berth_id": null,
+      "available_from": 0.0
+    },
+    {
+      "crane_id": "C11",
+      "name": "Crane 11",
+      "throughput_teu_per_hour": 109.3564974663264,
+      "assigned_berth_id": null,
+      "available_from": 0.0
+    },
+    {
+      "crane_id": "C12",
+      "name": "Crane 12",
+      "throughput_teu_per_hour": 105.29835748175931,
+      "assigned_berth_id": null,
+      "available_from": 0.0
+    },
+    {
+      "crane_id": "C13",
+      "name": "Crane 13",
+      "throughput_teu_per_hour": 116.79296370822512,
+      "assigned_berth_id": null,
+      "available_from": 0.0
+    },
+    {
+      "crane_id": "C14",
+      "name": "Crane 14",
+      "throughput_teu_per_hour": 93.00153872040539,
+      "assigned_berth_id": null,
+      "available_from": 0.0
+    },
+    {
+      "crane_id": "C15",
+      "name": "Crane 15",
+      "throughput_teu_per_hour": 134.119958931945,
+      "assigned_berth_id": null,
+      "available_from": 0.0
+    },
+    {
+      "crane_id": "C16",
+      "name": "Crane 16",
+      "throughput_teu_per_hour": 102.43878699347022,
+      "assigned_berth_id": null,
+      "available_from": 0.0
+    },
+    {
+      "crane_id": "C17",
+      "name": "Crane 17",
+      "throughput_teu_per_hour": 103.28671106464812,
+      "assigned_berth_id": null,
+      "available_from": 0.0
+    },
+    {
+      "crane_id": "C18",
+      "name": "Crane 18",
+      "throughput_teu_per_hour": 120.94212899174877,
+      "assigned_berth_id": null,
+      "available_from": 0.0
+    },
+    {
+      "crane_id": "C19",
+      "name": "Crane 19",
+      "throughput_teu_per_hour": 89.13659205801038,
+      "assigned_berth_id": null,
+      "available_from": 0.0
+    },
+    {
+      "crane_id": "C20",
+      "name": "Crane 20",
+      "throughput_teu_per_hour": 119.63407375469848,
+      "assigned_berth_id": null,
+      "available_from": 0.0
+    }
+  ],
+  "flagged_slots": [
+    {
+      "berth_id": "B01",
+      "slot_index": 0,
+      "hour_start": 0.0,
+      "hour_end": 2.0,
+      "expected_arrivals": 5,
+      "expected_queue": 4.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B01",
+      "slot_index": 1,
+      "hour_start": 2.0,
+      "hour_end": 4.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B01",
+      "slot_index": 2,
+      "hour_start": 4.0,
+      "hour_end": 6.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B01",
+      "slot_index": 4,
+      "hour_start": 8.0,
+      "hour_end": 10.0,
+      "expected_arrivals": 2,
+      "expected_queue": 2.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B01",
+      "slot_index": 7,
+      "hour_start": 14.0,
+      "hour_end": 16.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B01",
+      "slot_index": 8,
+      "hour_start": 16.0,
+      "hour_end": 18.0,
+      "expected_arrivals": 4,
+      "expected_queue": 4.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B01",
+      "slot_index": 9,
+      "hour_start": 18.0,
+      "hour_end": 20.0,
+      "expected_arrivals": 2,
+      "expected_queue": 1.0,
+      "risk_score": 0.7,
+      "flagged": true,
+      "flag_level": "HIGH"
+    },
+    {
+      "berth_id": "B01",
+      "slot_index": 10,
+      "hour_start": 20.0,
+      "hour_end": 22.0,
+      "expected_arrivals": 3,
+      "expected_queue": 3.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B01",
+      "slot_index": 11,
+      "hour_start": 22.0,
+      "hour_end": 24.0,
+      "expected_arrivals": 2,
+      "expected_queue": 2.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B01",
+      "slot_index": 12,
+      "hour_start": 24.0,
+      "hour_end": 26.0,
+      "expected_arrivals": 5,
+      "expected_queue": 5.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B01",
+      "slot_index": 14,
+      "hour_start": 28.0,
+      "hour_end": 30.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B01",
+      "slot_index": 16,
+      "hour_start": 32.0,
+      "hour_end": 34.0,
+      "expected_arrivals": 3,
+      "expected_queue": 3.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B01",
+      "slot_index": 18,
+      "hour_start": 36.0,
+      "hour_end": 38.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B01",
+      "slot_index": 19,
+      "hour_start": 38.0,
+      "hour_end": 40.0,
+      "expected_arrivals": 2,
+      "expected_queue": 1.0,
+      "risk_score": 0.7,
+      "flagged": true,
+      "flag_level": "HIGH"
+    },
+    {
+      "berth_id": "B01",
+      "slot_index": 20,
+      "hour_start": 40.0,
+      "hour_end": 42.0,
+      "expected_arrivals": 3,
+      "expected_queue": 3.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B01",
+      "slot_index": 21,
+      "hour_start": 42.0,
+      "hour_end": 44.0,
+      "expected_arrivals": 2,
+      "expected_queue": 2.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B01",
+      "slot_index": 24,
+      "hour_start": 48.0,
+      "hour_end": 50.0,
+      "expected_arrivals": 3,
+      "expected_queue": 2.0,
+      "risk_score": 0.867,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B01",
+      "slot_index": 25,
+      "hour_start": 50.0,
+      "hour_end": 52.0,
+      "expected_arrivals": 3,
+      "expected_queue": 3.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B01",
+      "slot_index": 26,
+      "hour_start": 52.0,
+      "hour_end": 54.0,
+      "expected_arrivals": 2,
+      "expected_queue": 2.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B01",
+      "slot_index": 27,
+      "hour_start": 54.0,
+      "hour_end": 56.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B01",
+      "slot_index": 30,
+      "hour_start": 60.0,
+      "hour_end": 62.0,
+      "expected_arrivals": 2,
+      "expected_queue": 1.0,
+      "risk_score": 0.7,
+      "flagged": true,
+      "flag_level": "HIGH"
+    },
+    {
+      "berth_id": "B01",
+      "slot_index": 31,
+      "hour_start": 62.0,
+      "hour_end": 64.0,
+      "expected_arrivals": 3,
+      "expected_queue": 3.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B01",
+      "slot_index": 32,
+      "hour_start": 64.0,
+      "hour_end": 66.0,
+      "expected_arrivals": 2,
+      "expected_queue": 2.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B01",
+      "slot_index": 33,
+      "hour_start": 66.0,
+      "hour_end": 68.0,
+      "expected_arrivals": 2,
+      "expected_queue": 1.0,
+      "risk_score": 0.7,
+      "flagged": true,
+      "flag_level": "HIGH"
+    },
+    {
+      "berth_id": "B01",
+      "slot_index": 35,
+      "hour_start": 70.0,
+      "hour_end": 72.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B02",
+      "slot_index": 0,
+      "hour_start": 0.0,
+      "hour_end": 2.0,
+      "expected_arrivals": 5,
+      "expected_queue": 4.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B02",
+      "slot_index": 1,
+      "hour_start": 2.0,
+      "hour_end": 4.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B02",
+      "slot_index": 2,
+      "hour_start": 4.0,
+      "hour_end": 6.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B02",
+      "slot_index": 4,
+      "hour_start": 8.0,
+      "hour_end": 10.0,
+      "expected_arrivals": 2,
+      "expected_queue": 2.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B02",
+      "slot_index": 7,
+      "hour_start": 14.0,
+      "hour_end": 16.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B02",
+      "slot_index": 8,
+      "hour_start": 16.0,
+      "hour_end": 18.0,
+      "expected_arrivals": 4,
+      "expected_queue": 4.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B02",
+      "slot_index": 9,
+      "hour_start": 18.0,
+      "hour_end": 20.0,
+      "expected_arrivals": 2,
+      "expected_queue": 1.0,
+      "risk_score": 0.7,
+      "flagged": true,
+      "flag_level": "HIGH"
+    },
+    {
+      "berth_id": "B02",
+      "slot_index": 10,
+      "hour_start": 20.0,
+      "hour_end": 22.0,
+      "expected_arrivals": 3,
+      "expected_queue": 3.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B02",
+      "slot_index": 11,
+      "hour_start": 22.0,
+      "hour_end": 24.0,
+      "expected_arrivals": 2,
+      "expected_queue": 2.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B02",
+      "slot_index": 12,
+      "hour_start": 24.0,
+      "hour_end": 26.0,
+      "expected_arrivals": 5,
+      "expected_queue": 5.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B02",
+      "slot_index": 14,
+      "hour_start": 28.0,
+      "hour_end": 30.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B02",
+      "slot_index": 16,
+      "hour_start": 32.0,
+      "hour_end": 34.0,
+      "expected_arrivals": 3,
+      "expected_queue": 3.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B02",
+      "slot_index": 18,
+      "hour_start": 36.0,
+      "hour_end": 38.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B02",
+      "slot_index": 19,
+      "hour_start": 38.0,
+      "hour_end": 40.0,
+      "expected_arrivals": 2,
+      "expected_queue": 1.0,
+      "risk_score": 0.7,
+      "flagged": true,
+      "flag_level": "HIGH"
+    },
+    {
+      "berth_id": "B02",
+      "slot_index": 20,
+      "hour_start": 40.0,
+      "hour_end": 42.0,
+      "expected_arrivals": 3,
+      "expected_queue": 3.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B02",
+      "slot_index": 21,
+      "hour_start": 42.0,
+      "hour_end": 44.0,
+      "expected_arrivals": 2,
+      "expected_queue": 2.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B02",
+      "slot_index": 24,
+      "hour_start": 48.0,
+      "hour_end": 50.0,
+      "expected_arrivals": 3,
+      "expected_queue": 2.0,
+      "risk_score": 0.867,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B02",
+      "slot_index": 25,
+      "hour_start": 50.0,
+      "hour_end": 52.0,
+      "expected_arrivals": 3,
+      "expected_queue": 3.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B02",
+      "slot_index": 26,
+      "hour_start": 52.0,
+      "hour_end": 54.0,
+      "expected_arrivals": 2,
+      "expected_queue": 2.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B02",
+      "slot_index": 27,
+      "hour_start": 54.0,
+      "hour_end": 56.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B02",
+      "slot_index": 30,
+      "hour_start": 60.0,
+      "hour_end": 62.0,
+      "expected_arrivals": 2,
+      "expected_queue": 1.0,
+      "risk_score": 0.7,
+      "flagged": true,
+      "flag_level": "HIGH"
+    },
+    {
+      "berth_id": "B02",
+      "slot_index": 31,
+      "hour_start": 62.0,
+      "hour_end": 64.0,
+      "expected_arrivals": 3,
+      "expected_queue": 3.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B02",
+      "slot_index": 32,
+      "hour_start": 64.0,
+      "hour_end": 66.0,
+      "expected_arrivals": 2,
+      "expected_queue": 2.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B02",
+      "slot_index": 33,
+      "hour_start": 66.0,
+      "hour_end": 68.0,
+      "expected_arrivals": 2,
+      "expected_queue": 1.0,
+      "risk_score": 0.7,
+      "flagged": true,
+      "flag_level": "HIGH"
+    },
+    {
+      "berth_id": "B02",
+      "slot_index": 35,
+      "hour_start": 70.0,
+      "hour_end": 72.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B03",
+      "slot_index": 0,
+      "hour_start": 0.0,
+      "hour_end": 2.0,
+      "expected_arrivals": 3,
+      "expected_queue": 2.0,
+      "risk_score": 0.867,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B03",
+      "slot_index": 1,
+      "hour_start": 2.0,
+      "hour_end": 4.0,
+      "expected_arrivals": 2,
+      "expected_queue": 2.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B03",
+      "slot_index": 4,
+      "hour_start": 8.0,
+      "hour_end": 10.0,
+      "expected_arrivals": 2,
+      "expected_queue": 2.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B03",
+      "slot_index": 5,
+      "hour_start": 10.0,
+      "hour_end": 12.0,
+      "expected_arrivals": 3,
+      "expected_queue": 2.0,
+      "risk_score": 0.867,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B03",
+      "slot_index": 6,
+      "hour_start": 12.0,
+      "hour_end": 14.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B03",
+      "slot_index": 8,
+      "hour_start": 16.0,
+      "hour_end": 18.0,
+      "expected_arrivals": 5,
+      "expected_queue": 5.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B03",
+      "slot_index": 9,
+      "hour_start": 18.0,
+      "hour_end": 20.0,
+      "expected_arrivals": 3,
+      "expected_queue": 3.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B03",
+      "slot_index": 10,
+      "hour_start": 20.0,
+      "hour_end": 22.0,
+      "expected_arrivals": 2,
+      "expected_queue": 2.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B03",
+      "slot_index": 11,
+      "hour_start": 22.0,
+      "hour_end": 24.0,
+      "expected_arrivals": 4,
+      "expected_queue": 3.0,
+      "risk_score": 0.95,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B03",
+      "slot_index": 12,
+      "hour_start": 24.0,
+      "hour_end": 26.0,
+      "expected_arrivals": 6,
+      "expected_queue": 6.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B03",
+      "slot_index": 13,
+      "hour_start": 26.0,
+      "hour_end": 28.0,
+      "expected_arrivals": 2,
+      "expected_queue": 2.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B03",
+      "slot_index": 14,
+      "hour_start": 28.0,
+      "hour_end": 30.0,
+      "expected_arrivals": 3,
+      "expected_queue": 3.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B03",
+      "slot_index": 16,
+      "hour_start": 32.0,
+      "hour_end": 34.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B03",
+      "slot_index": 18,
+      "hour_start": 36.0,
+      "hour_end": 38.0,
+      "expected_arrivals": 2,
+      "expected_queue": 1.0,
+      "risk_score": 0.7,
+      "flagged": true,
+      "flag_level": "HIGH"
+    },
+    {
+      "berth_id": "B03",
+      "slot_index": 19,
+      "hour_start": 38.0,
+      "hour_end": 40.0,
+      "expected_arrivals": 3,
+      "expected_queue": 3.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B03",
+      "slot_index": 20,
+      "hour_start": 40.0,
+      "hour_end": 42.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B03",
+      "slot_index": 21,
+      "hour_start": 42.0,
+      "hour_end": 44.0,
+      "expected_arrivals": 2,
+      "expected_queue": 2.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B03",
+      "slot_index": 24,
+      "hour_start": 48.0,
+      "hour_end": 50.0,
+      "expected_arrivals": 4,
+      "expected_queue": 3.0,
+      "risk_score": 0.95,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B03",
+      "slot_index": 25,
+      "hour_start": 50.0,
+      "hour_end": 52.0,
+      "expected_arrivals": 4,
+      "expected_queue": 4.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B03",
+      "slot_index": 26,
+      "hour_start": 52.0,
+      "hour_end": 54.0,
+      "expected_arrivals": 2,
+      "expected_queue": 2.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B03",
+      "slot_index": 27,
+      "hour_start": 54.0,
+      "hour_end": 56.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B03",
+      "slot_index": 30,
+      "hour_start": 60.0,
+      "hour_end": 62.0,
+      "expected_arrivals": 2,
+      "expected_queue": 1.0,
+      "risk_score": 0.7,
+      "flagged": true,
+      "flag_level": "HIGH"
+    },
+    {
+      "berth_id": "B03",
+      "slot_index": 31,
+      "hour_start": 62.0,
+      "hour_end": 64.0,
+      "expected_arrivals": 5,
+      "expected_queue": 5.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B03",
+      "slot_index": 32,
+      "hour_start": 64.0,
+      "hour_end": 66.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B03",
+      "slot_index": 33,
+      "hour_start": 66.0,
+      "hour_end": 68.0,
+      "expected_arrivals": 2,
+      "expected_queue": 2.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B03",
+      "slot_index": 34,
+      "hour_start": 68.0,
+      "hour_end": 70.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B03",
+      "slot_index": 35,
+      "hour_start": 70.0,
+      "hour_end": 72.0,
+      "expected_arrivals": 3,
+      "expected_queue": 3.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B04",
+      "slot_index": 0,
+      "hour_start": 0.0,
+      "hour_end": 2.0,
+      "expected_arrivals": 3,
+      "expected_queue": 2.0,
+      "risk_score": 0.867,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B04",
+      "slot_index": 1,
+      "hour_start": 2.0,
+      "hour_end": 4.0,
+      "expected_arrivals": 2,
+      "expected_queue": 2.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B04",
+      "slot_index": 4,
+      "hour_start": 8.0,
+      "hour_end": 10.0,
+      "expected_arrivals": 2,
+      "expected_queue": 2.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B04",
+      "slot_index": 5,
+      "hour_start": 10.0,
+      "hour_end": 12.0,
+      "expected_arrivals": 3,
+      "expected_queue": 2.0,
+      "risk_score": 0.867,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B04",
+      "slot_index": 6,
+      "hour_start": 12.0,
+      "hour_end": 14.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B04",
+      "slot_index": 8,
+      "hour_start": 16.0,
+      "hour_end": 18.0,
+      "expected_arrivals": 5,
+      "expected_queue": 5.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B04",
+      "slot_index": 9,
+      "hour_start": 18.0,
+      "hour_end": 20.0,
+      "expected_arrivals": 3,
+      "expected_queue": 3.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B04",
+      "slot_index": 10,
+      "hour_start": 20.0,
+      "hour_end": 22.0,
+      "expected_arrivals": 2,
+      "expected_queue": 2.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B04",
+      "slot_index": 11,
+      "hour_start": 22.0,
+      "hour_end": 24.0,
+      "expected_arrivals": 4,
+      "expected_queue": 3.0,
+      "risk_score": 0.95,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B04",
+      "slot_index": 12,
+      "hour_start": 24.0,
+      "hour_end": 26.0,
+      "expected_arrivals": 6,
+      "expected_queue": 6.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B04",
+      "slot_index": 13,
+      "hour_start": 26.0,
+      "hour_end": 28.0,
+      "expected_arrivals": 2,
+      "expected_queue": 2.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B04",
+      "slot_index": 14,
+      "hour_start": 28.0,
+      "hour_end": 30.0,
+      "expected_arrivals": 3,
+      "expected_queue": 3.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B04",
+      "slot_index": 16,
+      "hour_start": 32.0,
+      "hour_end": 34.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B04",
+      "slot_index": 18,
+      "hour_start": 36.0,
+      "hour_end": 38.0,
+      "expected_arrivals": 2,
+      "expected_queue": 1.0,
+      "risk_score": 0.7,
+      "flagged": true,
+      "flag_level": "HIGH"
+    },
+    {
+      "berth_id": "B04",
+      "slot_index": 19,
+      "hour_start": 38.0,
+      "hour_end": 40.0,
+      "expected_arrivals": 3,
+      "expected_queue": 3.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B04",
+      "slot_index": 20,
+      "hour_start": 40.0,
+      "hour_end": 42.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B04",
+      "slot_index": 21,
+      "hour_start": 42.0,
+      "hour_end": 44.0,
+      "expected_arrivals": 2,
+      "expected_queue": 2.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B04",
+      "slot_index": 24,
+      "hour_start": 48.0,
+      "hour_end": 50.0,
+      "expected_arrivals": 4,
+      "expected_queue": 3.0,
+      "risk_score": 0.95,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B04",
+      "slot_index": 25,
+      "hour_start": 50.0,
+      "hour_end": 52.0,
+      "expected_arrivals": 4,
+      "expected_queue": 4.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B04",
+      "slot_index": 26,
+      "hour_start": 52.0,
+      "hour_end": 54.0,
+      "expected_arrivals": 2,
+      "expected_queue": 2.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B04",
+      "slot_index": 27,
+      "hour_start": 54.0,
+      "hour_end": 56.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B04",
+      "slot_index": 30,
+      "hour_start": 60.0,
+      "hour_end": 62.0,
+      "expected_arrivals": 2,
+      "expected_queue": 1.0,
+      "risk_score": 0.7,
+      "flagged": true,
+      "flag_level": "HIGH"
+    },
+    {
+      "berth_id": "B04",
+      "slot_index": 31,
+      "hour_start": 62.0,
+      "hour_end": 64.0,
+      "expected_arrivals": 5,
+      "expected_queue": 5.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B04",
+      "slot_index": 32,
+      "hour_start": 64.0,
+      "hour_end": 66.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B04",
+      "slot_index": 33,
+      "hour_start": 66.0,
+      "hour_end": 68.0,
+      "expected_arrivals": 2,
+      "expected_queue": 2.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B04",
+      "slot_index": 34,
+      "hour_start": 68.0,
+      "hour_end": 70.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B04",
+      "slot_index": 35,
+      "hour_start": 70.0,
+      "hour_end": 72.0,
+      "expected_arrivals": 3,
+      "expected_queue": 3.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B06",
+      "slot_index": 1,
+      "hour_start": 2.0,
+      "hour_end": 4.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B06",
+      "slot_index": 5,
+      "hour_start": 10.0,
+      "hour_end": 12.0,
+      "expected_arrivals": 4,
+      "expected_queue": 4.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B06",
+      "slot_index": 6,
+      "hour_start": 12.0,
+      "hour_end": 14.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B06",
+      "slot_index": 8,
+      "hour_start": 16.0,
+      "hour_end": 18.0,
+      "expected_arrivals": 2,
+      "expected_queue": 2.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B06",
+      "slot_index": 9,
+      "hour_start": 18.0,
+      "hour_end": 20.0,
+      "expected_arrivals": 2,
+      "expected_queue": 2.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B06",
+      "slot_index": 10,
+      "hour_start": 20.0,
+      "hour_end": 22.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B06",
+      "slot_index": 11,
+      "hour_start": 22.0,
+      "hour_end": 24.0,
+      "expected_arrivals": 3,
+      "expected_queue": 3.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B06",
+      "slot_index": 12,
+      "hour_start": 24.0,
+      "hour_end": 26.0,
+      "expected_arrivals": 4,
+      "expected_queue": 4.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B06",
+      "slot_index": 13,
+      "hour_start": 26.0,
+      "hour_end": 28.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B06",
+      "slot_index": 14,
+      "hour_start": 28.0,
+      "hour_end": 30.0,
+      "expected_arrivals": 2,
+      "expected_queue": 2.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B06",
+      "slot_index": 17,
+      "hour_start": 34.0,
+      "hour_end": 36.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B06",
+      "slot_index": 19,
+      "hour_start": 38.0,
+      "hour_end": 40.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B06",
+      "slot_index": 21,
+      "hour_start": 42.0,
+      "hour_end": 44.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B06",
+      "slot_index": 22,
+      "hour_start": 44.0,
+      "hour_end": 46.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B06",
+      "slot_index": 24,
+      "hour_start": 48.0,
+      "hour_end": 50.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B06",
+      "slot_index": 26,
+      "hour_start": 52.0,
+      "hour_end": 54.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B06",
+      "slot_index": 30,
+      "hour_start": 60.0,
+      "hour_end": 62.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B06",
+      "slot_index": 31,
+      "hour_start": 62.0,
+      "hour_end": 64.0,
+      "expected_arrivals": 2,
+      "expected_queue": 2.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B06",
+      "slot_index": 33,
+      "hour_start": 66.0,
+      "hour_end": 68.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B06",
+      "slot_index": 34,
+      "hour_start": 68.0,
+      "hour_end": 70.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B06",
+      "slot_index": 35,
+      "hour_start": 70.0,
+      "hour_end": 72.0,
+      "expected_arrivals": 2,
+      "expected_queue": 2.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B07",
+      "slot_index": 5,
+      "hour_start": 10.0,
+      "hour_end": 12.0,
+      "expected_arrivals": 2,
+      "expected_queue": 1.0,
+      "risk_score": 0.7,
+      "flagged": true,
+      "flag_level": "HIGH"
+    },
+    {
+      "berth_id": "B07",
+      "slot_index": 7,
+      "hour_start": 14.0,
+      "hour_end": 16.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B07",
+      "slot_index": 9,
+      "hour_start": 18.0,
+      "hour_end": 20.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B07",
+      "slot_index": 10,
+      "hour_start": 20.0,
+      "hour_end": 22.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B07",
+      "slot_index": 12,
+      "hour_start": 24.0,
+      "hour_end": 26.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B07",
+      "slot_index": 21,
+      "hour_start": 42.0,
+      "hour_end": 44.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B07",
+      "slot_index": 22,
+      "hour_start": 44.0,
+      "hour_end": 46.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B07",
+      "slot_index": 26,
+      "hour_start": 52.0,
+      "hour_end": 54.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B08",
+      "slot_index": 5,
+      "hour_start": 10.0,
+      "hour_end": 12.0,
+      "expected_arrivals": 2,
+      "expected_queue": 1.0,
+      "risk_score": 0.7,
+      "flagged": true,
+      "flag_level": "HIGH"
+    },
+    {
+      "berth_id": "B08",
+      "slot_index": 7,
+      "hour_start": 14.0,
+      "hour_end": 16.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B08",
+      "slot_index": 9,
+      "hour_start": 18.0,
+      "hour_end": 20.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B08",
+      "slot_index": 10,
+      "hour_start": 20.0,
+      "hour_end": 22.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B08",
+      "slot_index": 12,
+      "hour_start": 24.0,
+      "hour_end": 26.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B08",
+      "slot_index": 21,
+      "hour_start": 42.0,
+      "hour_end": 44.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B08",
+      "slot_index": 22,
+      "hour_start": 44.0,
+      "hour_end": 46.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    },
+    {
+      "berth_id": "B08",
+      "slot_index": 26,
+      "hour_start": 52.0,
+      "hour_end": 54.0,
+      "expected_arrivals": 1,
+      "expected_queue": 1.0,
+      "risk_score": 1.0,
+      "flagged": true,
+      "flag_level": "CRITICAL"
+    }
+  ],
+  "prediction_summary": {
+    "total_slots_analyzed": 288,
+    "flagged_slots": 141,
+    "critical_slots": 127,
+    "berths_at_risk": [
+      "B01",
+      "B02",
+      "B03",
+      "B04",
+      "B06",
+      "B07",
+      "B08"
+    ],
+    "earliest_congestion_hour": 0.0,
+    "risk_by_berth": {
+      "B01": {
+        "max_risk": 1.0,
+        "flagged_windows": 25
+      },
+      "B02": {
+        "max_risk": 1.0,
+        "flagged_windows": 25
+      },
+      "B03": {
+        "max_risk": 1.0,
+        "flagged_windows": 27
+      },
+      "B04": {
+        "max_risk": 1.0,
+        "flagged_windows": 27
+      },
+      "B06": {
+        "max_risk": 1.0,
+        "flagged_windows": 21
+      },
+      "B07": {
+        "max_risk": 1.0,
+        "flagged_windows": 8
+      },
+      "B08": {
+        "max_risk": 1.0,
+        "flagged_windows": 8
+      }
+    }
+  },
+  "assignments": [
+    {
+      "vessel_id": "V0027",
+      "berth_id": "B01",
+      "crane_ids": [
+        "C10",
+        "C15"
+      ],
+      "service_start": 1789445844.0158632,
+      "service_end": 1789460887.1389117,
+      "wait_time_hours": 0.0,
+      "teu_per_hour": 270.4
+    },
+    {
+      "vessel_id": "V0098",
+      "berth_id": "B02",
+      "crane_ids": [
+        "C10",
+        "C15"
+      ],
+      "service_start": 1789629209.900103,
+      "service_end": 1789653625.0219357,
+      "wait_time_hours": 0.0,
+      "teu_per_hour": 270.4
+    },
+    {
+      "vessel_id": "V0100",
+      "berth_id": "B03",
+      "crane_ids": [
+        "C05",
+        "C08",
+        "C18"
+      ],
+      "service_start": 1789632537.7188737,
+      "service_end": 1789753682.4752905,
+      "wait_time_hours": 0.0,
+      "teu_per_hour": 367.6
+    },
+    {
+      "vessel_id": "V0004",
+      "berth_id": "B01",
+      "crane_ids": [
+        "C20",
+        "C13"
+      ],
+      "service_start": 1789460887.1389117,
+      "service_end": 1789535513.12158,
+      "wait_time_hours": 20.435,
+      "teu_per_hour": 236.4
+    },
+    {
+      "vessel_id": "V0005",
+      "berth_id": "B04",
+      "crane_ids": [
+        "C09",
+        "C11",
+        "C12"
+      ],
+      "service_start": 1789389120.7119963,
+      "service_end": 1789515241.3705833,
+      "wait_time_hours": 0.0,
+      "teu_per_hour": 327.0
+    },
+    {
+      "vessel_id": "V0011",
+      "berth_id": "B01",
+      "crane_ids": [
+        "C20",
+        "C13"
+      ],
+      "service_start": 1789535513.12158,
+      "service_end": 1789563682.4886348,
+      "wait_time_hours": 37.006,
+      "teu_per_hour": 236.4
+    },
+    {
+      "vessel_id": "V0026",
+      "berth_id": "B06",
+      "crane_ids": [
+        "C01",
+        "C17",
+        "C07",
+        "C16"
+      ],
+      "service_start": 1789447941.9724526,
+      "service_end": 1789549417.1603746,
+      "wait_time_hours": 0.0,
+      "teu_per_hour": 412.9
+    },
+    {
+      "vessel_id": "V0034",
+      "berth_id": "B01",
+      "crane_ids": [
+        "C20",
+        "C13"
+      ],
+      "service_start": 1789563682.4886348,
+      "service_end": 1789619762.3691015,
+      "wait_time_hours": 29.58,
+      "teu_per_hour": 236.4
+    },
+    {
+      "vessel_id": "V0036",
+      "berth_id": "B04",
+      "crane_ids": [
+        "C09",
+        "C11",
+        "C12"
+      ],
+      "service_start": 1789515241.3705833,
+      "service_end": 1789620365.7746155,
+      "wait_time_hours": 14.535,
+      "teu_per_hour": 327.0
+    },
+    {
+      "vessel_id": "V0040",
+      "berth_id": "B06",
+      "crane_ids": [
+        "C01",
+        "C17",
+        "C07",
+        "C16"
+      ],
+      "service_start": 1789549417.1603746,
+      "service_end": 1789644702.7105453,
+      "wait_time_hours": 22.362,
+      "teu_per_hour": 412.9
+    },
+    {
+      "vessel_id": "V0043",
+      "berth_id": "B04",
+      "crane_ids": [
+        "C20",
+        "C13",
+        "C09"
+      ],
+      "service_start": 1789620365.7746155,
+      "service_end": 1789752538.073518,
+      "wait_time_hours": 41.459,
+      "teu_per_hour": 348.7
+    },
+    {
+      "vessel_id": "V0042",
+      "berth_id": "B01",
+      "crane_ids": [
+        "C06",
+        "C04"
+      ],
+      "service_start": 1789619762.3691015,
+      "service_end": 1789808919.9499555,
+      "wait_time_hours": 41.116,
+      "teu_per_hour": 190.0
+    },
+    {
+      "vessel_id": "V0046",
+      "berth_id": "B06",
+      "crane_ids": [
+        "C11",
+        "C12",
+        "C01",
+        "C17"
+      ],
+      "service_start": 1789644702.7105453,
+      "service_end": 1789772055.8966196,
+      "wait_time_hours": 47.575,
+      "teu_per_hour": 422.2
+    },
+    {
+      "vessel_id": "V0047",
+      "berth_id": "B07",
+      "crane_ids": [
+        "C14",
+        "C02",
+        "C03",
+        "C19"
+      ],
+      "service_start": 1789474486.850725,
+      "service_end": 1789649390.4072146,
+      "wait_time_hours": 0.0,
+      "teu_per_hour": 364.9
+    },
+    {
+      "vessel_id": "V0049",
+      "berth_id": "B02",
+      "crane_ids": [
+        "C10",
+        "C15"
+      ],
+      "service_start": 1789653625.0219357,
+      "service_end": 1789667549.8951292,
+      "wait_time_hours": 49.324,
+      "teu_per_hour": 270.4
+    },
+    {
+      "vessel_id": "V0052",
+      "berth_id": "B02",
+      "crane_ids": [
+        "C10",
+        "C15"
+      ],
+      "service_start": 1789667549.8951292,
+      "service_end": 1789736122.573733,
+      "wait_time_hours": 51.063,
+      "teu_per_hour": 270.4
+    },
+    {
+      "vessel_id": "V0055",
+      "berth_id": "B04",
+      "crane_ids": [
+        "C10",
+        "C15",
+        "C20"
+      ],
+      "service_start": 1789752538.073518,
+      "service_end": 1789854790.9145055,
+      "wait_time_hours": 73.43,
+      "teu_per_hour": 390.1
+    },
+    {
+      "vessel_id": "V0059",
+      "berth_id": "B02",
+      "crane_ids": [
+        "C07",
+        "C16"
+      ],
+      "service_start": 1789736122.573733,
+      "service_end": 1789806624.9573286,
+      "wait_time_hours": 63.877,
+      "teu_per_hour": 205.4
+    },
+    {
+      "vessel_id": "V0062",
+      "berth_id": "B03",
+      "crane_ids": [
+        "C05",
+        "C08",
+        "C18"
+      ],
+      "service_start": 1789753682.4752905,
+      "service_end": 1789853986.807968,
+      "wait_time_hours": 64.491,
+      "teu_per_hour": 367.6
+    },
+    {
+      "vessel_id": "V0063",
+      "berth_id": "B02",
+      "crane_ids": [
+        "C13",
+        "C09"
+      ],
+      "service_start": 1789806624.9573286,
+      "service_end": 1789919710.896559,
+      "wait_time_hours": 77.962,
+      "teu_per_hour": 229.1
+    },
+    {
+      "vessel_id": "V0068",
+      "berth_id": "B01",
+      "crane_ids": [
+        "C11",
+        "C12"
+      ],
+      "service_start": 1789808919.9499555,
+      "service_end": 1789927927.7404206,
+      "wait_time_hours": 76.201,
+      "teu_per_hour": 214.7
+    },
+    {
+      "vessel_id": "V0075",
+      "berth_id": "B03",
+      "crane_ids": [
+        "C05",
+        "C08",
+        "C18"
+      ],
+      "service_start": 1789853986.807968,
+      "service_end": 1789950363.9743297,
+      "wait_time_hours": 81.336,
+      "teu_per_hour": 367.6
+    },
+    {
+      "vessel_id": "V0077",
+      "berth_id": "B04",
+      "crane_ids": [
+        "C10",
+        "C15",
+        "C20"
+      ],
+      "service_start": 1789854790.9145055,
+      "service_end": 1789932945.7170582,
+      "wait_time_hours": 80.355,
+      "teu_per_hour": 390.1
+    },
+    {
+      "vessel_id": "V0080",
+      "berth_id": "B02",
+      "crane_ids": [
+        "C13",
+        "C09"
+      ],
+      "service_start": 1789919710.896559,
+      "service_end": 1790021074.991873,
+      "wait_time_hours": 96.942,
+      "teu_per_hour": 229.1
+    },
+    {
+      "vessel_id": "V0082",
+      "berth_id": "B01",
+      "crane_ids": [
+        "C11",
+        "C12"
+      ],
+      "service_start": 1789927927.7404206,
+      "service_end": 1790033518.6435728,
+      "wait_time_hours": 98.601,
+      "teu_per_hour": 214.7
+    },
+    {
+      "vessel_id": "V0079",
+      "berth_id": "B08",
+      "crane_ids": [
+        "C02",
+        "C03",
+        "C14",
+        "C19"
+      ],
+      "service_start": 1789649390.4072146,
+      "service_end": 1789826987.5199137,
+      "wait_time_hours": 21.138,
+      "teu_per_hour": 364.9
+    },
+    {
+      "vessel_id": "V0091",
+      "berth_id": "B04",
+      "crane_ids": [
+        "C10",
+        "C15",
+        "C20"
+      ],
+      "service_start": 1789932945.7170582,
+      "service_end": 1790020920.631788,
+      "wait_time_hours": 88.809,
+      "teu_per_hour": 390.1
+    },
+    {
+      "vessel_id": "V0095",
+      "berth_id": "B03",
+      "crane_ids": [
+        "C05",
+        "C08",
+        "C18"
+      ],
+      "service_start": 1789950363.9743297,
+      "service_end": 1790007391.1300786,
+      "wait_time_hours": 91.266,
+      "teu_per_hour": 367.6
+    },
+    {
+      "vessel_id": "V0099",
+      "berth_id": "B03",
+      "crane_ids": [
+        "C05",
+        "C08",
+        "C18"
+      ],
+      "service_start": 1790007391.1300786,
+      "service_end": 1790064261.590912,
+      "wait_time_hours": 105.034,
+      "teu_per_hour": 367.6
+    },
+    {
+      "vessel_id": "V0103",
+      "berth_id": "B06",
+      "crane_ids": [
+        "C01",
+        "C17"
+      ],
+      "service_start": 1789772055.8966196,
+      "service_end": 1789958660.5282853,
+      "wait_time_hours": 36.686,
+      "teu_per_hour": 207.5
+    },
+    {
+      "vessel_id": "V0001",
+      "berth_id": "B07",
+      "crane_ids": [
+        "C07",
+        "C16",
+        "C04",
+        "C06"
+      ],
+      "service_start": 1789806624.9573286,
+      "service_end": 1790022061.674426,
+      "wait_time_hours": 117.546,
+      "teu_per_hour": 395.4
+    },
+    {
+      "vessel_id": "V0002",
+      "berth_id": "B04",
+      "crane_ids": [
+        "C10",
+        "C15",
+        "C20"
+      ],
+      "service_start": 1790020920.631788,
+      "service_end": 1790087427.8952734,
+      "wait_time_hours": 176.735,
+      "teu_per_hour": 390.1
+    },
+    {
+      "vessel_id": "V0006",
+      "berth_id": "B02",
+      "crane_ids": [
+        "C13",
+        "C09"
+      ],
+      "service_start": 1790021074.991873,
+      "service_end": 1790047802.6815536,
+      "wait_time_hours": 175.383,
+      "teu_per_hour": 229.1
+    },
+    {
+      "vessel_id": "V0003",
+      "berth_id": "B01",
+      "crane_ids": [
+        "C11",
+        "C12"
+      ],
+      "service_start": 1790033518.6435728,
+      "service_end": 1790144576.9283051,
+      "wait_time_hours": 178.683,
+      "teu_per_hour": 214.7
+    },
+    {
+      "vessel_id": "V0008",
+      "berth_id": "B02",
+      "crane_ids": [
+        "C13",
+        "C09"
+      ],
+      "service_start": 1790047802.6815536,
+      "service_end": 1790133485.2752209,
+      "wait_time_hours": 182.185,
+      "teu_per_hour": 229.1
+    },
+    {
+      "vessel_id": "V0009",
+      "berth_id": "B03",
+      "crane_ids": [
+        "C05",
+        "C08",
+        "C18"
+      ],
+      "service_start": 1790064261.590912,
+      "service_end": 1790123364.9542892,
+      "wait_time_hours": 186.504,
+      "teu_per_hour": 367.6
+    },
+    {
+      "vessel_id": "V0010",
+      "berth_id": "B06",
+      "crane_ids": [
+        "C01",
+        "C17",
+        "C14",
+        "C02"
+      ],
+      "service_start": 1789958660.5282853,
+      "service_end": 1790081041.5468233,
+      "wait_time_hours": 155.747,
+      "teu_per_hour": 392.5
+    },
+    {
+      "vessel_id": "V0012",
+      "berth_id": "B02",
+      "crane_ids": [
+        "C10",
+        "C15"
+      ],
+      "service_start": 1790133485.2752209,
+      "service_end": 1790191634.267677,
+      "wait_time_hours": 201.75,
+      "teu_per_hour": 270.4
+    },
+    {
+      "vessel_id": "V0013",
+      "berth_id": "B04",
+      "crane_ids": [
+        "C20",
+        "C01",
+        "C17"
+      ],
+      "service_start": 1790087427.8952734,
+      "service_end": 1790178440.391602,
+      "wait_time_hours": 186.821,
+      "teu_per_hour": 327.2
+    },
+    {
+      "vessel_id": "V0016",
+      "berth_id": "B03",
+      "crane_ids": [
+        "C05",
+        "C08",
+        "C18"
+      ],
+      "service_start": 1790123364.9542892,
+      "service_end": 1790192359.6841967,
+      "wait_time_hours": 195.179,
+      "teu_per_hour": 367.6
+    },
+    {
+      "vessel_id": "V0015",
+      "berth_id": "B06",
+      "crane_ids": [
+        "C07",
+        "C16",
+        "C06",
+        "C04"
+      ],
+      "service_start": 1790081041.5468233,
+      "service_end": 1790195251.5958161,
+      "wait_time_hours": 183.173,
+      "teu_per_hour": 395.4
+    },
+    {
+      "vessel_id": "V0014",
+      "berth_id": "B01",
+      "crane_ids": [
+        "C13",
+        "C09"
+      ],
+      "service_start": 1790144576.9283051,
+      "service_end": 1790280289.483138,
+      "wait_time_hours": 200.656,
+      "teu_per_hour": 229.1
+    },
+    {
+      "vessel_id": "V0018",
+      "berth_id": "B04",
+      "crane_ids": [
+        "C20",
+        "C11",
+        "C12"
+      ],
+      "service_start": 1790178440.391602,
+      "service_end": 1790333171.2114372,
+      "wait_time_hours": 209.02,
+      "teu_per_hour": 334.3
+    },
+    {
+      "vessel_id": "V0017",
+      "berth_id": "B08",
+      "crane_ids": [
+        "C03",
+        "C19"
+      ],
+      "service_start": 1789826987.5199137,
+      "service_end": 1790150050.2992713,
+      "wait_time_hours": 111.383,
+      "teu_per_hour": 179.9
+    },
+    {
+      "vessel_id": "V0020",
+      "berth_id": "B07",
+      "crane_ids": [
+        "C02",
+        "C14",
+        "C03",
+        "C19"
+      ],
+      "service_start": 1790081041.5468233,
+      "service_end": 1790300166.7843752,
+      "wait_time_hours": 181.524,
+      "teu_per_hour": 364.9
+    },
+    {
+      "vessel_id": "V0019",
+      "berth_id": "B03",
+      "crane_ids": [
+        "C10",
+        "C15",
+        "C05"
+      ],
+      "service_start": 1790192359.6841967,
+      "service_end": 1790295128.4625313,
+      "wait_time_hours": 212.104,
+      "teu_per_hour": 396.0
+    },
+    {
+      "vessel_id": "V0021",
+      "berth_id": "B02",
+      "crane_ids": [
+        "C01",
+        "C17"
+      ],
+      "service_start": 1790191634.267677,
+      "service_end": 1790256218.1705954,
+      "wait_time_hours": 209.791,
+      "teu_per_hour": 207.5
+    },
+    {
+      "vessel_id": "V0022",
+      "berth_id": "B08",
+      "crane_ids": [
+        "C08",
+        "C18",
+        "C04",
+        "C06"
+      ],
+      "service_start": 1790192359.6841967,
+      "service_end": 1790348935.1992247,
+      "wait_time_hours": 208.92,
+      "teu_per_hour": 432.0
+    },
+    {
+      "vessel_id": "V0023",
+      "berth_id": "B02",
+      "crane_ids": [
+        "C01",
+        "C17"
+      ],
+      "service_start": 1790256218.1705954,
+      "service_end": 1790343128.0157795,
+      "wait_time_hours": 225.571,
+      "teu_per_hour": 207.5
+    },
+    {
+      "vessel_id": "V0025",
+      "berth_id": "B01",
+      "crane_ids": [
+        "C13",
+        "C09"
+      ],
+      "service_start": 1790280289.483138,
+      "service_end": 1790427205.35528,
+      "wait_time_hours": 231.439,
+      "teu_per_hour": 229.1
+    },
+    {
+      "vessel_id": "V0024",
+      "berth_id": "B06",
+      "crane_ids": [
+        "C07",
+        "C16"
+      ],
+      "service_start": 1790195251.5958161,
+      "service_end": 1790399959.1132855,
+      "wait_time_hours": 207.734,
+      "teu_per_hour": 205.4
+    },
+    {
+      "vessel_id": "V0029",
+      "berth_id": "B03",
+      "crane_ids": [
+        "C10",
+        "C15",
+        "C05"
+      ],
+      "service_start": 1790295128.4625313,
+      "service_end": 1790353408.0412931,
+      "wait_time_hours": 235.0,
+      "teu_per_hour": 396.0
+    },
+    {
+      "vessel_id": "V0031",
+      "berth_id": "B04",
+      "crane_ids": [
+        "C20",
+        "C11",
+        "C12"
+      ],
+      "service_start": 1790333171.2114372,
+      "service_end": 1790405324.3637824,
+      "wait_time_hours": 245.324,
+      "teu_per_hour": 334.3
+    },
+    {
+      "vessel_id": "V0028",
+      "berth_id": "B03",
+      "crane_ids": [
+        "C10",
+        "C15",
+        "C05"
+      ],
+      "service_start": 1790353408.0412931,
+      "service_end": 1790487121.0851254,
+      "wait_time_hours": 250.761,
+      "teu_per_hour": 396.0
+    },
+    {
+      "vessel_id": "V0030",
+      "berth_id": "B07",
+      "crane_ids": [
+        "C14",
+        "C02",
+        "C03",
+        "C19"
+      ],
+      "service_start": 1790300166.7843752,
+      "service_end": 1790511043.6226928,
+      "wait_time_hours": 235.774,
+      "teu_per_hour": 364.9
+    },
+    {
+      "vessel_id": "V0033",
+      "berth_id": "B02",
+      "crane_ids": [
+        "C01",
+        "C17"
+      ],
+      "service_start": 1790343128.0157795,
+      "service_end": 1790495211.5712144,
+      "wait_time_hours": 246.547,
+      "teu_per_hour": 207.5
+    },
+    {
+      "vessel_id": "V0032",
+      "berth_id": "B08",
+      "crane_ids": [
+        "C08",
+        "C18",
+        "C06",
+        "C04"
+      ],
+      "service_start": 1790348935.1992247,
+      "service_end": 1790538979.2722874,
+      "wait_time_hours": 247.295,
+      "teu_per_hour": 432.0
+    },
+    {
+      "vessel_id": "V0035",
+      "berth_id": "B04",
+      "crane_ids": [
+        "C20",
+        "C11",
+        "C12"
+      ],
+      "service_start": 1790405324.3637824,
+      "service_end": 1790482237.470357,
+      "wait_time_hours": 262.351,
+      "teu_per_hour": 334.3
+    },
+    {
+      "vessel_id": "V0037",
+      "berth_id": "B01",
+      "crane_ids": [
+        "C13",
+        "C09"
+      ],
+      "service_start": 1790427205.35528,
+      "service_end": 1790530030.7528517,
+      "wait_time_hours": 266.845,
+      "teu_per_hour": 229.1
+    },
+    {
+      "vessel_id": "V0038",
+      "berth_id": "B06",
+      "crane_ids": [
+        "C07",
+        "C16"
+      ],
+      "service_start": 1790399959.1132855,
+      "service_end": 1790585336.7453196,
+      "wait_time_hours": 259.251,
+      "teu_per_hour": 205.4
+    },
+    {
+      "vessel_id": "V0039",
+      "berth_id": "B02",
+      "crane_ids": [
+        "C10",
+        "C15"
+      ],
+      "service_start": 1790495211.5712144,
+      "service_end": 1790527800.5669866,
+      "wait_time_hours": 285.093,
+      "teu_per_hour": 270.4
+    },
+    {
+      "vessel_id": "V0044",
+      "berth_id": "B02",
+      "crane_ids": [
+        "C10",
+        "C15"
+      ],
+      "service_start": 1790527800.5669866,
+      "service_end": 1790547170.2519736,
+      "wait_time_hours": 293.317,
+      "teu_per_hour": 270.4
+    },
+    {
+      "vessel_id": "V0041",
+      "berth_id": "B04",
+      "crane_ids": [
+        "C20",
+        "C11",
+        "C12"
+      ],
+      "service_start": 1790482237.470357,
+      "service_end": 1790569532.0155673,
+      "wait_time_hours": 280.433,
+      "teu_per_hour": 334.3
+    },
+    {
+      "vessel_id": "V0045",
+      "berth_id": "B03",
+      "crane_ids": [
+        "C05"
+      ],
+      "service_start": 1790487121.0851254,
+      "service_end": 1790776685.8096783,
+      "wait_time_hours": 281.744,
+      "teu_per_hour": 125.6
+    },
+    {
+      "vessel_id": "V0050",
+      "berth_id": "B01",
+      "crane_ids": [
+        "C13",
+        "C09"
+      ],
+      "service_start": 1790530030.7528517,
+      "service_end": 1790671981.3399029,
+      "wait_time_hours": 293.507,
+      "teu_per_hour": 229.1
+    },
+    {
+      "vessel_id": "V0048",
+      "berth_id": "B04",
+      "crane_ids": [
+        "C10",
+        "C15",
+        "C08"
+      ],
+      "service_start": 1790569532.0155673,
+      "service_end": 1790705501.8019762,
+      "wait_time_hours": 304.252,
+      "teu_per_hour": 391.5
+    },
+    {
+      "vessel_id": "V0051",
+      "berth_id": "B06",
+      "crane_ids": [
+        "C18",
+        "C20",
+        "C11",
+        "C12"
+      ],
+      "service_start": 1790585336.7453196,
+      "service_end": 1790666655.4501274,
+      "wait_time_hours": 306.672,
+      "teu_per_hour": 455.2
+    },
+    {
+      "vessel_id": "V0054",
+      "berth_id": "B06",
+      "crane_ids": [
+        "C18",
+        "C20",
+        "C11",
+        "C12"
+      ],
+      "service_start": 1790666655.4501274,
+      "service_end": 1790751817.4779475,
+      "wait_time_hours": 326.965,
+      "teu_per_hour": 455.2
+    },
+    {
+      "vessel_id": "V0053",
+      "berth_id": "B02",
+      "crane_ids": [
+        "C01",
+        "C17"
+      ],
+      "service_start": 1790547170.2519736,
+      "service_end": 1790641660.856109,
+      "wait_time_hours": 293.693,
+      "teu_per_hour": 207.5
+    },
+    {
+      "vessel_id": "V0056",
+      "berth_id": "B02",
+      "crane_ids": [
+        "C01",
+        "C17"
+      ],
+      "service_start": 1790641660.856109,
+      "service_end": 1790675574.7777326,
+      "wait_time_hours": 315.456,
+      "teu_per_hour": 207.5
+    },
+    {
+      "vessel_id": "V0058",
+      "berth_id": "B01",
+      "crane_ids": [
+        "C13",
+        "C09"
+      ],
+      "service_start": 1790671981.3399029,
+      "service_end": 1790763462.0038183,
+      "wait_time_hours": 323.809,
+      "teu_per_hour": 229.1
+    },
+    {
+      "vessel_id": "V0057",
+      "berth_id": "B02",
+      "crane_ids": [
+        "C01",
+        "C17"
+      ],
+      "service_start": 1790675574.7777326,
+      "service_end": 1790728588.0485675,
+      "wait_time_hours": 324.275,
+      "teu_per_hour": 207.5
+    },
+    {
+      "vessel_id": "V0061",
+      "berth_id": "B04",
+      "crane_ids": [
+        "C10",
+        "C15",
+        "C08"
+      ],
+      "service_start": 1790705501.8019762,
+      "service_end": 1790756934.1714735,
+      "wait_time_hours": 329.998,
+      "teu_per_hour": 391.5
+    },
+    {
+      "vessel_id": "V0065",
+      "berth_id": "B02",
+      "crane_ids": [
+        "C01",
+        "C17"
+      ],
+      "service_start": 1790728588.0485675,
+      "service_end": 1790852326.1574893,
+      "wait_time_hours": 333.679,
+      "teu_per_hour": 207.5
+    },
+    {
+      "vessel_id": "V0064",
+      "berth_id": "B06",
+      "crane_ids": [
+        "C18",
+        "C20",
+        "C11",
+        "C12"
+      ],
+      "service_start": 1790751817.4779475,
+      "service_end": 1790838284.3376546,
+      "wait_time_hours": 339.798,
+      "teu_per_hour": 455.2
+    },
+    {
+      "vessel_id": "V0066",
+      "berth_id": "B01",
+      "crane_ids": [
+        "C10",
+        "C15"
+      ],
+      "service_start": 1790763462.0038183,
+      "service_end": 1790823727.6834998,
+      "wait_time_hours": 342.063,
+      "teu_per_hour": 270.4
+    },
+    {
+      "vessel_id": "V0070",
+      "berth_id": "B07",
+      "crane_ids": [
+        "C14",
+        "C02",
+        "C03",
+        "C19"
+      ],
+      "service_start": 1790511043.6226928,
+      "service_end": 1790701526.3925688,
+      "wait_time_hours": 268.961,
+      "teu_per_hour": 364.9
+    },
+    {
+      "vessel_id": "V0072",
+      "berth_id": "B08",
+      "crane_ids": [
+        "C06",
+        "C04"
+      ],
+      "service_start": 1790538979.2722874,
+      "service_end": 1790898704.613637,
+      "wait_time_hours": 275.4,
+      "teu_per_hour": 190.0
+    },
+    {
+      "vessel_id": "V0074",
+      "berth_id": "B04",
+      "crane_ids": [
+        "C08",
+        "C07",
+        "C16"
+      ],
+      "service_start": 1790756934.1714735,
+      "service_end": 1790833304.8407917,
+      "wait_time_hours": 333.074,
+      "teu_per_hour": 326.5
+    },
+    {
+      "vessel_id": "V0073",
+      "berth_id": "B03",
+      "crane_ids": [
+        "C05",
+        "C13",
+        "C09"
+      ],
+      "service_start": 1790776685.8096783,
+      "service_end": 1790914889.1814096,
+      "wait_time_hours": 338.166,
+      "teu_per_hour": 354.7
+    },
+    {
+      "vessel_id": "V0078",
+      "berth_id": "B01",
+      "crane_ids": [
+        "C10",
+        "C15"
+      ],
+      "service_start": 1790823727.6834998,
+      "service_end": 1790912495.4219837,
+      "wait_time_hours": 348.169,
+      "teu_per_hour": 270.4
+    },
+    {
+      "vessel_id": "V0081",
+      "berth_id": "B04",
+      "crane_ids": [
+        "C08",
+        "C07",
+        "C16"
+      ],
+      "service_start": 1790833304.8407917,
+      "service_end": 1790978448.8084838,
+      "wait_time_hours": 350.745,
+      "teu_per_hour": 326.5
+    },
+    {
+      "vessel_id": "V0083",
+      "berth_id": "B02",
+      "crane_ids": [
+        "C18",
+        "C20"
+      ],
+      "service_start": 1790852326.1574893,
+      "service_end": 1790975091.417157,
+      "wait_time_hours": 354.815,
+      "teu_per_hour": 240.6
+    },
+    {
+      "vessel_id": "V0084",
+      "berth_id": "B01",
+      "crane_ids": [
+        "C10",
+        "C15"
+      ],
+      "service_start": 1790912495.4219837,
+      "service_end": 1791033585.9062746,
+      "wait_time_hours": 369.636,
+      "teu_per_hour": 270.4
+    },
+    {
+      "vessel_id": "V0085",
+      "berth_id": "B02",
+      "crane_ids": [
+        "C05",
+        "C18"
+      ],
+      "service_start": 1790975091.417157,
+      "service_end": 1791022928.887515,
+      "wait_time_hours": 384.063,
+      "teu_per_hour": 246.5
+    },
+    {
+      "vessel_id": "V0087",
+      "berth_id": "B02",
+      "crane_ids": [
+        "C05",
+        "C08"
+      ],
+      "service_start": 1791022928.887515,
+      "service_end": 1791081237.9574494,
+      "wait_time_hours": 393.185,
+      "teu_per_hour": 246.7
+    },
+    {
+      "vessel_id": "V0090",
+      "berth_id": "B03",
+      "crane_ids": [
+        "C13",
+        "C09",
+        "C11"
+      ],
+      "service_start": 1790914889.1814096,
+      "service_end": 1790998510.8713357,
+      "wait_time_hours": 362.354,
+      "teu_per_hour": 338.5
+    },
+    {
+      "vessel_id": "V0092",
+      "berth_id": "B06",
+      "crane_ids": [
+        "C12",
+        "C14",
+        "C02",
+        "C03"
+      ],
+      "service_start": 1790838284.3376546,
+      "service_end": 1790973249.1808558,
+      "wait_time_hours": 340.487,
+      "teu_per_hour": 381.0
+    },
+    {
+      "vessel_id": "V0093",
+      "berth_id": "B06",
+      "crane_ids": [
+        "C12",
+        "C01",
+        "C17",
+        "C06"
+      ],
+      "service_start": 1790973249.1808558,
+      "service_end": 1791100103.0951238,
+      "wait_time_hours": 377.68,
+      "teu_per_hour": 407.9
+    },
+    {
+      "vessel_id": "V0094",
+      "berth_id": "B01",
+      "crane_ids": [
+        "C10",
+        "C15"
+      ],
+      "service_start": 1791033585.9062746,
+      "service_end": 1791075999.525772,
+      "wait_time_hours": 392.783,
+      "teu_per_hour": 270.4
+    },
+    {
+      "vessel_id": "V0096",
+      "berth_id": "B07",
+      "crane_ids": [
+        "C19"
+      ],
+      "service_start": 1790701526.3925688,
+      "service_end": 1791587627.1305082,
+      "wait_time_hours": 300.06,
+      "teu_per_hour": 89.1
+    },
+    {
+      "vessel_id": "V0097",
+      "berth_id": "B04",
+      "crane_ids": [
+        "C20",
+        "C07",
+        "C16"
+      ],
+      "service_start": 1790978448.8084838,
+      "service_end": 1791132269.2552722,
+      "wait_time_hours": 376.273,
+      "teu_per_hour": 325.1
+    },
+    {
+      "vessel_id": "V0102",
+      "berth_id": "B03",
+      "crane_ids": [
+        "C13",
+        "C09",
+        "C11"
+      ],
+      "service_start": 1790998510.8713357,
+      "service_end": 1791097310.3978841,
+      "wait_time_hours": 377.448,
+      "teu_per_hour": 338.5
+    },
+    {
+      "vessel_id": "V0101",
+      "berth_id": "B03",
+      "crane_ids": [
+        "C10",
+        "C15",
+        "C05"
+      ],
+      "service_start": 1791097310.3978841,
+      "service_end": 1791190225.0094151,
+      "wait_time_hours": 404.622,
+      "teu_per_hour": 396.0
+    },
+    {
+      "vessel_id": "V0007",
+      "berth_id": "B01",
+      "crane_ids": [
+        "C18",
+        "C04"
+      ],
+      "service_start": 1791075999.525772,
+      "service_end": 1791134840.9304795,
+      "wait_time_hours": 467.908,
+      "teu_per_hour": 215.8
+    },
+    {
+      "vessel_id": "V0060",
+      "berth_id": "B08",
+      "crane_ids": [
+        "C02",
+        "C03",
+        "C14",
+        "C08"
+      ],
+      "service_start": 1790973249.1808558,
+      "service_end": 1791190087.8349607,
+      "wait_time_hours": 405.455,
+      "teu_per_hour": 396.8
+    },
+    {
+      "vessel_id": "V0067",
+      "berth_id": "B02",
+      "crane_ids": [
+        "C09",
+        "C11"
+      ],
+      "service_start": 1791097310.3978841,
+      "service_end": 1791118471.1781728,
+      "wait_time_hours": 433.981,
+      "teu_per_hour": 221.7
+    },
+    {
+      "vessel_id": "V0069",
+      "berth_id": "B02",
+      "crane_ids": [
+        "C13",
+        "C09"
+      ],
+      "service_start": 1791118471.1781728,
+      "service_end": 1791253130.9668632,
+      "wait_time_hours": 439.191,
+      "teu_per_hour": 229.1
+    },
+    {
+      "vessel_id": "V0071",
+      "berth_id": "B04",
+      "crane_ids": [
+        "C20",
+        "C11",
+        "C12"
+      ],
+      "service_start": 1791132269.2552722,
+      "service_end": 1791207588.5310187,
+      "wait_time_hours": 441.835,
+      "teu_per_hour": 334.3
+    },
+    {
+      "vessel_id": "V0076",
+      "berth_id": "B01",
+      "crane_ids": [
+        "C18",
+        "C01"
+      ],
+      "service_start": 1791134840.9304795,
+      "service_end": 1791292746.035489,
+      "wait_time_hours": 437.563,
+      "teu_per_hour": 225.2
+    },
+    {
+      "vessel_id": "V0086",
+      "berth_id": "B03",
+      "crane_ids": [
+        "C10",
+        "C15",
+        "C05"
+      ],
+      "service_start": 1791190225.0094151,
+      "service_end": 1791241904.8417754,
+      "wait_time_hours": 440.098,
+      "teu_per_hour": 396.0
+    },
+    {
+      "vessel_id": "V0088",
+      "berth_id": "B06",
+      "crane_ids": [
+        "C17",
+        "C06"
+      ],
+      "service_start": 1791100103.0951238,
+      "service_end": 1791309835.3336732,
+      "wait_time_hours": 414.822,
+      "teu_per_hour": 198.4
+    },
+    {
+      "vessel_id": "V0089",
+      "berth_id": "B04",
+      "crane_ids": [
+        "C08",
+        "C20",
+        "C11"
+      ],
+      "service_start": 1791207588.5310187,
+      "service_end": 1791301463.3645298,
+      "wait_time_hours": 443.142,
+      "teu_per_hour": 350.0
+    }
+  ],
+  "metrics": {
+    "vessels_assigned": 103,
+    "vessels_unassigned": 0,
+    "avg_wait_before_hours": 593.312,
+    "avg_wait_after_hours": 221.789,
+    "wait_reduction_pct": 62.6,
+    "congestion_incidents_avoided": 141,
+    "critical_berths_avoided": 7
+  }
+}

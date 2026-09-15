@@ -9,51 +9,66 @@
 # =============================================================================
 
 team:
-  name: ""                             # REQUIRED — e.g., "Orion Squad"
-  track: ""                            # REQUIRED — one of: AI | DevOps | Sustainability | Open
+  name: "Out Of Tokens"                # REQUIRED — e.g., "Orion Squad"
+  track: "AI"                          # REQUIRED — one of: AI | DevOps | Sustainability | Open
   lead:
-    name: ""                           # REQUIRED — e.g., "Alice Chen"
-    email: ""                          # REQUIRED — e.g., "alice.chen@ibm.com"
+    name: "Maulik Pithiya"                           # REQUIRED — fill in your name
+    email: "maulikpithiya4812@gmail.com"                          # REQUIRED — fill in your email
   members:
-    - name: ""                         # REQUIRED — Team member 1
-      email: ""
-    - name: ""                         # Add more members by copying the two lines above
-      email: ""
-    - name: ""
-      email: ""
+    - name: "Rutansh govardhan"                         # REQUIRED — Team member 1 (Simulation + Prediction)
+      email: "rutanshgovardhan07@gmail.com"
+    - name: "Maulik Pithiya"                         # Team member 2 (Optimization)
+      email: "maulikpithiya4812@gmail.com"
+    - name: "Ayushi Pithiya"                         # Team member 3 (Dashboard)
+      email: "ayushipithiya1196@gmail.com"
+    - name: "Parthvi Shah"                         # Team member 4 (API + Integration)
+      email: "parthvishah1611@gmail.com"
 
 submission:
-  title: ""                            # REQUIRED — Project display name, e.g., "SmartOps Dashboard"
+  title: "PortPulse — Container Congestion Predictor & Port Operations Optimiser"
 
   problem_statement: >                 # REQUIRED — 1-3 sentences. What problem? Who has it?
-    Replace this text with a concise description of the real-world problem
-    your project addresses and who experiences it.
+    Container port operators rely on reactive, spreadsheet-based berth management that detects
+    congestion only after ships are already queuing — as seen in 2021 when 100+ vessels sat
+    offshore at LA/Long Beach for weeks, costing supply chains $10B+. Port shift supervisors
+    have no predictive visibility into the next 24–72 hours, leaving them unable to act before
+    backlogs become catastrophic.
 
   solution_summary: >                  # REQUIRED — 1-3 sentences. What did you build?
-    Replace this text with a clear description of your solution
-    and how it addresses the problem above.
+    PortPulse is an end-to-end congestion prediction and optimization system that simulates a
+    72-hour vessel arrival schedule, scores every berth × time-slot with a congestion risk index,
+    and runs a greedy optimizer that reroutes vessels and assigns cranes to minimize wait time —
+    producing a clean, actionable ops plan before the queue ever forms. The full pipeline
+    (simulate → predict → optimize → visualize) runs in under a second via a single API call
+    and is surfaced on a Next.js real-time dashboard.
 
   key_features:                        # REQUIRED — List 3 to 5 specific features you implemented
-    - ""                               # e.g., "Real-time pipeline anomaly detection using watsonx.ai"
-    - ""
-    - ""
-    - ""                               # optional 4th
-    - ""                               # optional 5th
+    - "Predictive congestion scoring — risk score per berth per 2-hour slot, flagging HIGH (>65%) and CRITICAL (>85%) windows up to 72 hours ahead"
+    - "Greedy optimizer — reroutes vessels away from flagged windows and allocates cranes to minimize turnaround time, with quantified before/after wait-time improvement"
+    - "Injectable congestion scenario — burst arrivals + berth offline for a vivid before/after demo (pre-baked fallback in demo/scenario_congested.json)"
+    - "72-hour assignment timeline — vessel → berth → crane → time slot, ready for a shift supervisor to act on"
+    - "Single-endpoint pipeline — POST /pipeline runs simulation, prediction, and optimization and returns the complete ops plan with no external dependencies beyond FastAPI"
 
   tech_stack:
-    languages: []                      # REQUIRED — e.g., ["Python", "TypeScript"]
-    frameworks: []                     # e.g., ["FastAPI", "React"]
-    ibm_technologies: []               # e.g., ["watsonx.ai", "IBM Bob", "IBM Cloud Functions"]
-    databases: []                      # e.g., ["PostgreSQL", "Redis"]
-    other: []                          # e.g., ["Docker", "GitHub Actions", "Slack API"]
+    languages: ["Python", "TypeScript"]
+    frameworks: ["FastAPI", "Uvicorn", "Next.js 14", "React 18", "Recharts", "Tailwind CSS"]
+    ibm_technologies: ["IBM Bob"]
+    databases: []                      # Synthetic in-memory data; no external DB required
+    other: ["Pytest", "OR-Tools CP-SAT (planned v2 path)"]
 
   what_we_are_most_proud_of: >         # Optional but recommended — guides judges to your best work
-    Replace with what aspect of the submission you consider strongest
-    and want judges to pay special attention to.
+    The fully working end-to-end pipeline: a single POST to /pipeline runs simulation, prediction,
+    and optimization and returns a complete 72-hour ops plan with a quantified before/after
+    wait-time improvement — all in under a second, with zero external service dependencies beyond
+    FastAPI. The congestion scenario injection lets judges see a vivid, immediate before/after
+    comparison without needing live data.
 
   known_limitations: >                 # Optional but recommended — be honest about gaps
-    Replace with any known limitations, incomplete features,
-    or shortcuts taken due to time constraints.
+    Data is entirely synthetic — no live AIS feed or real port data is integrated.
+    The system models a single port only; multi-port network effects are out of scope.
+    The optimizer is a greedy heuristic (not globally optimal); OR-Tools CP-SAT is noted as the
+    v2 path. API state is in-memory and resets on server restart. No authentication or
+    production infrastructure is included.
 
 # =============================================================================
 # ARTIFACT LOCATIONS
